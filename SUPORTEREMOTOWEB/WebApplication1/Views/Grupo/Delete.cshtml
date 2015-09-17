@@ -1,0 +1,34 @@
+﻿@model WebApplication1.Models.GrupCliente
+
+@{
+    ViewBag.Title = "Grupo";
+}
+<h3>Deseja deletar esté</h3>
+<div>
+    <hr/>
+    <dl class="dl-horizontal">
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.grcl_nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.grcl_nome)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(model => model.empr_codigo)
+        @Html.HiddenFor(model => model.grcl_codigo)
+        ;
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Deletar" class="btn btn-default"/> |
+                @Html.ActionLink("Voltar", "Index")
+            </div>
+        </div>
+    }
+</div>

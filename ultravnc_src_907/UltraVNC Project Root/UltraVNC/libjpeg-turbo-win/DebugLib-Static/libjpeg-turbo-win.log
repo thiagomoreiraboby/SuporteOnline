@@ -1,0 +1,112 @@
+﻿Build started 25/05/2015 08:36:09.
+     1>Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\libjpeg-turbo-win.vcxproj" on node 4 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "DebugLib-Static\libjpeg-turbo-win.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "DebugLib-Static\libjpeg-turbo-win.unsuccessfulbuild".
+       CustomBuild:
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jccolmmx.obj" "simd/jccolmmx.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jccolss2.obj" "simd/jccolss2.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jcqnt3dn.obj" "simd/jcqnt3dn.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jcqntmmx.obj" "simd/jcqntmmx.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jcqnts2f.obj" "simd/jcqnts2f.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jcqnts2i.obj" "simd/jcqnts2i.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jcqntsse.obj" "simd/jcqntsse.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jcsammmx.obj" "simd/jcsammmx.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jcsamss2.obj" "simd/jcsamss2.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jdcolmmx.obj" "simd/jdcolmmx.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jdcolss2.obj" "simd/jdcolss2.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jdmermmx.obj" "simd/jdmermmx.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jdmerss2.obj" "simd/jdmerss2.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jdsammmx.obj" "simd/jdsammmx.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jdsamss2.obj" "simd/jdsamss2.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jf3dnflt.obj" "simd/jf3dnflt.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jfmmxfst.obj" "simd/jfmmxfst.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jfmmxint.obj" "simd/jfmmxint.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jfss2fst.obj" "simd/jfss2fst.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jfss2int.obj" "simd/jfss2int.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jfsseflt.obj" "simd/jfsseflt.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\ji3dnflt.obj" "simd/ji3dnflt.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jimmxfst.obj" "simd/jimmxfst.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jimmxint.obj" "simd/jimmxint.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jimmxred.obj" "simd/jimmxred.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jiss2flt.obj" "simd/jiss2flt.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jiss2fst.obj" "simd/jiss2fst.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jiss2int.obj" "simd/jiss2int.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jiss2red.obj" "simd/jiss2red.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jisseflt.obj" "simd/jisseflt.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jsimdcpu.obj" "simd/jsimdcpu.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jcgrass2.obj" "simd/jcgrass2.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jcgrammx.obj" "simd/jcgrammx.asm"
+         'nasm' não é reconhecido como um comando interno
+         ou externo, um programa operável ou um arquivo em lotes.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(151,5): error MSB6006: "cmd.exe" exited with code 9009.
+     1>Done Building Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\libjpeg-turbo-win.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.19

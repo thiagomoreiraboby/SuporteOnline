@@ -1,0 +1,53 @@
+﻿Build started 02/06/2015 16:30:18.
+     1>Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\zipunzip_src\zip20\windll\visualc\lib\zip32v12.vcxproj" on node 4 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\.. /I..\..\..\win32 /I..\..\..\windll /Zi /nologo /W3 /WX- /Ox /Ob2 /Oi /Ot /Oy- /GT /GL /D NDEBUG /D _WINDOWS /D WIN32 /D NO_ASM /D WINDLL /D MSDOS /D USE_ZIPMAIN /D ZIPLIB /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MT /Zp16 /GS /Gy /Qpar /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\api.c ..\..\..\crc32.c ..\..\..\crctab.c ..\..\..\crypt.c ..\..\..\deflate.c ..\..\..\fileio.c ..\..\..\globals.c ..\..\..\win32\nt.c ..\..\..\trees.c ..\..\..\ttyio.c ..\..\..\util.c ..\..\..\win32\win32.c ..\..\..\win32\win32zip.c ..\..\windll.c ..\..\..\zip.c ..\..\..\zipfile.c ..\..\..\zipup.c
+         api.c
+         crc32.c
+         crctab.c
+         crypt.c
+         deflate.c
+         fileio.c
+         globals.c
+         nt.c
+         trees.c
+         ttyio.c
+         util.c
+         win32.c
+     1>..\..\..\win32\win32.c(324): warning C4244: 'return' : conversion from 'time_t' to 'int', possible loss of data
+     1>..\..\..\win32\win32.c(660): warning C4996: 'GetVersion': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110) : see declaration of 'GetVersion'
+         win32zip.c
+     1>..\..\..\win32\win32zip.c(658): warning C4013: 'printff' undefined; assuming extern returning int
+         windll.c
+         zip.c
+         zipfile.c
+         zipup.c
+     1>..\..\..\zipup.c(1113): warning C4013: 'deflate_copy' undefined; assuming extern returning int
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _VC80_UPGRADE=0x0600 /l"0x0409" /I"\DATA\ultravnc\UltraVNC Project Root\UltraVNC\zipunzip_src\zip20\windll" /nologo /fo"Release\windll.res" ..\..\windll.rc 
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Release\zip32.lib" /NOLOGO /MACHINE:X86 /LTCG Release\windll.res
+         Release\api.obj
+         Release\crc32.obj
+         Release\crctab.obj
+         Release\crypt.obj
+         Release\deflate.obj
+         Release\fileio.obj
+         Release\globals.obj
+         Release\nt.obj
+         Release\trees.obj
+         Release\ttyio.obj
+         Release\util.obj
+         Release\win32.obj
+         Release\win32zip.obj
+         Release\windll.obj
+         Release\zip.obj
+         Release\zipfile.obj
+         Release\zipup.obj
+         zip32v12.vcxproj -> D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Release\zip32.lib
+     1>Done Building Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\zipunzip_src\zip20\windll\visualc\lib\zip32v12.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.87

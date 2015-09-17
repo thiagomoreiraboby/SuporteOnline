@@ -1,0 +1,185 @@
+﻿Build started 02/06/2015 16:31:12.
+     1>Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\libjpeg-turbo-winv12.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jccolmmx.obj" "simd/jccolmmx.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jccolss2.obj" "simd/jccolss2.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jcqnt3dn.obj" "simd/jcqnt3dn.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jcqntmmx.obj" "simd/jcqntmmx.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jcqnts2f.obj" "simd/jcqnts2f.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jcqnts2i.obj" "simd/jcqnts2i.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jcqntsse.obj" "simd/jcqntsse.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jcsammmx.obj" "simd/jcsammmx.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jcsamss2.obj" "simd/jcsamss2.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jdcolmmx.obj" "simd/jdcolmmx.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jdcolss2.obj" "simd/jdcolss2.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jdmermmx.obj" "simd/jdmermmx.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jdmerss2.obj" "simd/jdmerss2.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jdsammmx.obj" "simd/jdsammmx.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jdsamss2.obj" "simd/jdsamss2.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jf3dnflt.obj" "simd/jf3dnflt.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jfmmxfst.obj" "simd/jfmmxfst.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jfmmxint.obj" "simd/jfmmxint.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jfss2fst.obj" "simd/jfss2fst.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jfss2int.obj" "simd/jfss2int.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jfsseflt.obj" "simd/jfsseflt.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\ji3dnflt.obj" "simd/ji3dnflt.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jimmxfst.obj" "simd/jimmxfst.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jimmxint.obj" "simd/jimmxint.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jimmxred.obj" "simd/jimmxred.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jiss2flt.obj" "simd/jiss2flt.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jiss2fst.obj" "simd/jiss2fst.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jiss2int.obj" "simd/jiss2int.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jiss2red.obj" "simd/jiss2red.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jisseflt.obj" "simd/jisseflt.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jsimdcpu.obj" "simd/jsimdcpu.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jcgrass2.obj" "simd/jcgrass2.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jcgrammx.obj" "simd/jcgrammx.asm"
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I./win /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D WITH_SIMD /D _UNICODE /D UNICODE /Gm /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"DebugLib-Static\\" /Fd"DebugLib-Static\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt jaricom.c jcapimin.c jcapistd.c jcarith.c jccoefct.c jccolor.c jcdctmgr.c jchuff.c jcinit.c jcmainct.c jcmarker.c jcmaster.c jcomapi.c jcparam.c jcphuff.c jcprepct.c jcsample.c jctrans.c jdapimin.c jdapistd.c jdarith.c jdatadst.c jdatasrc.c jdcoefct.c jdcolor.c jddctmgr.c jdhuff.c jdinput.c jdmainct.c jdmarker.c jdmaster.c jdmerge.c jdphuff.c jdpostct.c jdsample.c jdtrans.c jerror.c jfdctflt.c jfdctfst.c jfdctint.c jidctflt.c jidctfst.c jidctint.c jidctred.c jmemmgr.c jmemnobs.c jquant1.c jquant2.c simd\jsimd_i386.c jutils.c
+         jutils.c
+         jsimd_i386.c
+         jquant2.c
+         jquant1.c
+         jmemnobs.c
+         jmemmgr.c
+         jidctred.c
+         jidctint.c
+         jidctfst.c
+         jidctflt.c
+         jfdctint.c
+         jfdctfst.c
+         jfdctflt.c
+         jerror.c
+         jdtrans.c
+         jdsample.c
+         jdpostct.c
+         jdphuff.c
+         jdmerge.c
+         jdmaster.c
+         Generating Code...
+         Compiling...
+         jdmarker.c
+         jdmainct.c
+         jdinput.c
+         jdhuff.c
+         jddctmgr.c
+         jdcolor.c
+         jdcoefct.c
+         jdatasrc.c
+         jdatadst.c
+         jdarith.c
+         jdapistd.c
+         jdapimin.c
+         jctrans.c
+         jcsample.c
+         jcprepct.c
+         jcphuff.c
+         jcparam.c
+         jcomapi.c
+         jcmaster.c
+         jcmarker.c
+         Generating Code...
+         Compiling...
+         jcmainct.c
+         jcinit.c
+         jchuff.c
+         jcdctmgr.c
+         jccolor.c
+         jccoefct.c
+         jcarith.c
+         jcapistd.c
+         jcapimin.c
+         jaricom.c
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\libjpeg-turbo-win.lib) does not match the Library's OutputFile property value (D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\libjpeg-turbo-win-static.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(libjpeg-turbo-win) does not match the Library's OutputFile property value (libjpeg-turbo-win-static). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\libjpeg-turbo-win-static.lib" /NOLOGO "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jccolmmx.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jccolss2.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jcqnt3dn.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jcqntmmx.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jcqnts2f.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jcqnts2i.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jcqntsse.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jcsammmx.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jcsamss2.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jdcolmmx.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jdcolss2.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jdmermmx.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jdmerss2.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jdsammmx.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jdsamss2.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jf3dnflt.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jfmmxfst.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jfmmxint.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jfss2fst.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jfss2int.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jfsseflt.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\ji3dnflt.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jimmxfst.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jimmxint.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jimmxred.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jiss2flt.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jiss2fst.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jiss2int.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jiss2red.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jisseflt.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jsimdcpu.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jcgrass2.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\jcgrammx.obj"
+         "DebugLib-Static\jaricom.obj"
+         "DebugLib-Static\jcapimin.obj"
+         "DebugLib-Static\jcapistd.obj"
+         "DebugLib-Static\jcarith.obj"
+         "DebugLib-Static\jccoefct.obj"
+         "DebugLib-Static\jccolor.obj"
+         "DebugLib-Static\jcdctmgr.obj"
+         "DebugLib-Static\jchuff.obj"
+         "DebugLib-Static\jcinit.obj"
+         "DebugLib-Static\jcmainct.obj"
+         "DebugLib-Static\jcmarker.obj"
+         "DebugLib-Static\jcmaster.obj"
+         "DebugLib-Static\jcomapi.obj"
+         "DebugLib-Static\jcparam.obj"
+         "DebugLib-Static\jcphuff.obj"
+         "DebugLib-Static\jcprepct.obj"
+         "DebugLib-Static\jcsample.obj"
+         "DebugLib-Static\jctrans.obj"
+         "DebugLib-Static\jdapimin.obj"
+         "DebugLib-Static\jdapistd.obj"
+         "DebugLib-Static\jdarith.obj"
+         "DebugLib-Static\jdatadst.obj"
+         "DebugLib-Static\jdatasrc.obj"
+         "DebugLib-Static\jdcoefct.obj"
+         "DebugLib-Static\jdcolor.obj"
+         "DebugLib-Static\jddctmgr.obj"
+         "DebugLib-Static\jdhuff.obj"
+         "DebugLib-Static\jdinput.obj"
+         "DebugLib-Static\jdmainct.obj"
+         "DebugLib-Static\jdmarker.obj"
+         "DebugLib-Static\jdmaster.obj"
+         "DebugLib-Static\jdmerge.obj"
+         "DebugLib-Static\jdphuff.obj"
+         "DebugLib-Static\jdpostct.obj"
+         "DebugLib-Static\jdsample.obj"
+         "DebugLib-Static\jdtrans.obj"
+         "DebugLib-Static\jerror.obj"
+         "DebugLib-Static\jfdctflt.obj"
+         "DebugLib-Static\jfdctfst.obj"
+         "DebugLib-Static\jfdctint.obj"
+         "DebugLib-Static\jidctflt.obj"
+         "DebugLib-Static\jidctfst.obj"
+         "DebugLib-Static\jidctint.obj"
+         "DebugLib-Static\jidctred.obj"
+         "DebugLib-Static\jmemmgr.obj"
+         "DebugLib-Static\jmemnobs.obj"
+         "DebugLib-Static\jquant1.obj"
+         "DebugLib-Static\jquant2.obj"
+         "DebugLib-Static\jsimd_i386.obj"
+         "DebugLib-Static\jutils.obj"
+         libjpeg-turbo-winv12.vcxproj -> D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\libjpeg-turbo-win.lib
+     1>Done Building Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\libjpeg-turbo-winv12.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.71

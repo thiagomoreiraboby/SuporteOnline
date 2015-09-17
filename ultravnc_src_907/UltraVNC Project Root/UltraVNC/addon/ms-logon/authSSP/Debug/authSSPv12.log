@@ -1,0 +1,43 @@
+﻿Build started 02/06/2015 12:57:16.
+     1>Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\addon\ms-logon\authSSP\authSSPv12.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Create Buildtime for VERSIONINFO
+         buildtime.in
+                 1 arquivo(s) movido(s).
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _WINDOWS /D AUTHSSP_EXPORTS /D UNICODE /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt authSSP.cpp EventLogging.cpp GenClientServerContext.cpp vncAccessControl.cpp vncSecurityEditor.cpp vncSSP.cpp
+         vncSSP.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\addon\ms-logon\authssp\vncssp.cpp(60): warning C4996: 'GetVersionExW': was declared deprecated
+                 c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(442) : see declaration of 'GetVersionExW'
+         vncSecurityEditor.cpp
+         vncAccessControl.cpp
+         GenClientServerContext.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\addon\ms-logon\authssp\genclientservercontext.cpp(86): warning C4996: 'GetVersionExW': was declared deprecated
+                 c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(442) : see declaration of 'GetVersionExW'
+         EventLogging.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\addon\ms-logon\authssp\eventlogging.cpp(113): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\swprintf.inl(97) : see declaration of 'vswprintf'
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\addon\ms-logon\authssp\eventlogging.cpp(134): warning C4996: '_swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(533) : see declaration of '_swprintf'
+         authSSP.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\addon\ms-logon\authssp\authssp.cpp(321): warning C4996: 'GetVersionExW': was declared deprecated
+                 c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(442) : see declaration of 'GetVersionExW'
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0813" /nologo /fo"Debug\authSSP.res" authSSP.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Debug\authSSP.dll" /INCREMENTAL /NOLOGO comctl32.lib netapi32.lib delayimp.lib aclui.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Delayimp.lib /DEF:".\authSSP.def" /DELAYLOAD:aclui.dll /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Debug\authSSP.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Debug\authSSP.lib" /MACHINE:X86 /SAFESEH /DLL Debug\authSSP.res
+         Debug\authSSP.obj
+         Debug\EventLogging.obj
+         Debug\GenClientServerContext.obj
+         Debug\vncAccessControl.obj
+         Debug\vncSecurityEditor.obj
+         Debug\vncSSP.obj
+     1>authSSP.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+            Creating library D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Debug\authSSP.lib and object D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Debug\authSSP.exp
+         authSSPv12.vcxproj -> D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Debug\authSSP.dll
+     1>Done Building Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\addon\ms-logon\authSSP\authSSPv12.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.00

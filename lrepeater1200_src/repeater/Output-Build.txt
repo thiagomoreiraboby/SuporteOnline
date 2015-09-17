@@ -1,0 +1,66 @@
+﻿1>------ Rebuild All started: Project: distributerVS2012, Configuration: Debug x64 ------
+1>  conexaopost.cpp
+1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\repeater.h(48): warning C4005: 'ECONNRESET' : macro redefinition
+1>          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+1>  lists_functions.cpp
+1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\repeater.h(48): warning C4005: 'ECONNRESET' : macro redefinition
+1>          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+1>  mode12_listener.cpp
+1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\repeater.h(48): warning C4005: 'ECONNRESET' : macro redefinition
+1>          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+1>mode12_listener.cpp(105): warning C4244: '=' : conversion from 'SOCKET' to 'int', possible loss of data
+1>mode12_listener.cpp(125): warning C4244: '=' : conversion from 'SOCKET' to 'int', possible loss of data
+1>  mode2_listener_server.cpp
+1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\repeater.h(48): warning C4005: 'ECONNRESET' : macro redefinition
+1>          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+1>mode2_listener_server.cpp(28): warning C4244: '=' : conversion from 'SOCKET' to 'int', possible loss of data
+1>mode2_listener_server.cpp(47): warning C4244: '=' : conversion from 'SOCKET' to 'int', possible loss of data
+1>  socket_functions.cpp
+1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\repeater.h(48): warning C4005: 'ECONNRESET' : macro redefinition
+1>          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+1>socket_functions.cpp(195): warning C4244: 'argument' : conversion from 'SOCKET' to 'int', possible loss of data
+1>socket_functions.cpp(387): warning C4244: '=' : conversion from 'SOCKET' to 'int', possible loss of data
+1>  Generating Code...
+1>  gui.cpp
+1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\repeater.h(48): warning C4005: 'ECONNRESET' : macro redefinition
+1>          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+1>gui.cpp(250): warning C4244: 'return' : conversion from 'WPARAM' to 'int', possible loss of data
+1>  repeater.cpp
+1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\repeater.h(48): warning C4005: 'ECONNRESET' : macro redefinition
+1>          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+1>  settings.c
+1>webgui\settings.c(220): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+1>webgui\settings.c(234): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+1>webgui\settings.c(248): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+1>webgui\settings.c(317): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+1>  webclib.c
+1>webgui\webclib.c(45): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+1>webgui\webclib.c(58): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+1>webgui\webclib.c(118): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+1>  webfs.c
+1>  webio.c
+1>webgui\webio.c(71): warning C4244: '=' : conversion from 'SOCKET' to 'socktype', possible loss of data
+1>webgui\webio.c(269): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+1>webgui\webio.c(352): warning C4244: '=' : conversion from 'SOCKET' to 'socktype', possible loss of data
+1>webgui\webio.c(725): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+1>  webobjs.c
+1>  websys.c
+1>  webtest.c
+1>webgui\webtest.c(340): warning C4101: 'addr' : unreferenced local variable
+1>webgui\webtest.c(589): warning C4101: 'viewer_port' : unreferenced local variable
+1>webgui\webtest.c(595): warning C4101: 'refuse_on' : unreferenced local variable
+1>webgui\webtest.c(596): warning C4101: 'refuse_con' : unreferenced local variable
+1>webgui\webtest.c(592): warning C4101: 'allow_con' : unreferenced local variable
+1>webgui\webtest.c(591): warning C4101: 'allow_on' : unreferenced local variable
+1>webgui\webtest.c(599): warning C4101: 'id_con' : unreferenced local variable
+1>webgui\webtest.c(588): warning C4101: 'server_port' : unreferenced local variable
+1>webgui\webtest.c(600): warning C4101: 'web_port' : unreferenced local variable
+1>webgui\webtest.c(598): warning C4101: 'id_on' : unreferenced local variable
+1>  webutils.c
+1>webgui\webutils.c(105): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+1>webgui\webutils.c(136): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+1>webgui\webutils.c(336): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+1>  wsfdata.c
+1>  Generating Code...
+1>  distributerVS2012.vcxproj -> D:\Dropbox\Dropbox\Fontes vncsihl\lrepeater1200_src\repeater\x64\Debug\distributerVS2012.exe
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========

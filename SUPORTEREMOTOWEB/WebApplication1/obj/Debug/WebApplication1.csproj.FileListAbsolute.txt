@@ -1,0 +1,75 @@
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\WebApplication1.dll
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\Antlr3.Runtime.dll
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\EntityFramework.dll
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\Npgsql.dll
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\Npgsql.EntityFramework.dll
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\System.Web.Helpers.dll
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\System.Web.Mvc.dll
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\System.Web.Optimization.dll
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\System.Web.Razor.dll
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.dll
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\System.Web.WebPages.dll
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.dll
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\WebGrease.dll
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\Mono.Security.dll
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\Antlr3.Runtime.pdb
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\EntityFramework.xml
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\Npgsql.xml
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\Npgsql.EntityFramework.xml
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\System.Web.Razor.xml
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\System.Web.Optimization.xml
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\System.Web.WebPages.xml
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.xml
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\de\Npgsql.resources.dll
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\es\Npgsql.resources.dll
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\fi\Npgsql.resources.dll
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\fr\Npgsql.resources.dll
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\ja\Npgsql.resources.dll
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\bin\zh-CN\Npgsql.resources.dll
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+D:\thiago\fontes\C#\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\WebApplication1.dll.config
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\WebApplication1.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\WebApplication1.pdb
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\Antlr3.Runtime.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\EntityFramework.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\Newtonsoft.Json.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\Npgsql.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\Npgsql.EntityFramework.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\System.Web.Mvc.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\System.Web.Optimization.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\System.Web.Razor.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\System.Web.WebPages.Deployment.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\System.Web.WebPages.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\System.Web.WebPages.Razor.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\Mono.Security.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\Antlr3.Runtime.pdb
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\EntityFramework.xml
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\Microsoft.Web.Infrastructure.xml
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\Newtonsoft.Json.xml
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\Npgsql.xml
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\Npgsql.EntityFramework.xml
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\System.Web.Razor.xml
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\System.Web.Mvc.xml
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\System.Web.Optimization.xml
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\System.Web.WebPages.xml
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\System.Web.WebPages.Razor.xml
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\de\Npgsql.resources.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\es\Npgsql.resources.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\fi\Npgsql.resources.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\fr\Npgsql.resources.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\ja\Npgsql.resources.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\bin\zh-CN\Npgsql.resources.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\obj\Debug\WebApplication1.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\Dropbox\Dropbox\Fontes vncsihl\SUPORTEREMOTOWEB\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache

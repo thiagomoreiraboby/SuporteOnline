@@ -1,0 +1,12 @@
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\bin\Release\Servicos.dll
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\bin\Release\Servicos.pdb
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\bin\Release\Mono.Security.dll
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\bin\Release\Npgsql.dll
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\obj\Release\Servicos.dll
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\obj\Release\Servicos.pdb
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\bin\Release\Servicos.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\bin\Release\Servicos.pdb
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\bin\Release\Mono.Security.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\bin\Release\Npgsql.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\obj\Release\Servicos.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\obj\Release\Servicos.pdb

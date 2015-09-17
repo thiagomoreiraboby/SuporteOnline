@@ -1,0 +1,73 @@
+﻿'vncviewer.exe' (Win32): Loaded 'D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Debug\vncviewer.exe'. Symbols loaded.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ntdll.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel32.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\KernelBase.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.17784_none_a9f497a901334c74\comctl32.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\winmm.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ws2_32.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\user32.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\gdi32.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\comdlg32.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\advapi32.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\shell32.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Debug\libjpeg-turbo-win.dll'. Module was built without symbols.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\imm32.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcrt.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\winmmbase.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\nsi.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\rpcrt4.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\shlwapi.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\sechost.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\combase.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcr120d.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msctf.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\cfgmgr32.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\devobj.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\sspicli.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\cryptbase.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\SHCore.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\bcryptprimitives.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\d3d9.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\version.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\dwmapi.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\riched32.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\riched20.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\usp10.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msls31.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\uxtheme.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ole32.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel.appcore.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\mswsock.dll'. Cannot find or open the PDB file.
+Connected to 186.202.116.166 port 16168
+DSMPlugin not enabled
+Connected to proxy 
+Connected to RFB server, using protocol version 3.0
+RFB server supports protocol version 3.8
+Connected to RFB server, using protocol version 3.8
+No authentication needed
+VNC authentication succeeded
+Desktop name "servidornovo ( 10.1.1.254 ) - service mode "
+Cache: Cache buffer bitmap creation
+The thread 0xe50 has exited with code 0 (0x0).
+The thread 0x268c has exited with code 0 (0x0).
+CLICKK 0
+CLICKK 
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\NapiNSP.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\pnrpnsp.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\nlaapi.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\dnsapi.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\winrnr.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\wshbth.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\IPHLPAPI.DLL'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\winnsi.dll'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\FWPUCLNT.DLL'. Cannot find or open the PDB file.
+'vncviewer.exe' (Win32): Loaded 'C:\Windows\SysWOW64\rasadhlp.dll'. Cannot find or open the PDB file.
+socket error 10061
+First-chance exception at 0x75154598 in vncviewer.exe: Microsoft C++ exception: WarningException at memory location 0x0018EB6C.
+First-chance exception at 0x75154598 in vncviewer.exe: Microsoft C++ exception: omni_thread_invalid at memory location 0x0018DC0E.
+Warning : Failed to connect to server !
+The thread 0x24a0 has exited with code 0 (0x0).
+The thread 0x2664 has exited with code 0 (0x0).
+The thread 0x123c has exited with code 0 (0x0).
+The thread 0x8c0 has exited with code 0 (0x0).
+The program '[9884] vncviewer.exe' has exited with code 0 (0x0).

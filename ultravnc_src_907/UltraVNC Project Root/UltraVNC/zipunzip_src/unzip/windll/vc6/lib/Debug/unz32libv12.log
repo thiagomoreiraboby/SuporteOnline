@@ -1,0 +1,54 @@
+﻿Build started 06/07/2015 12:56:41.
+     1>Project "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\zipunzip_src\unzip\windll\vc6\lib\unz32libv12.vcxproj" on node 4 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../.. /Z7 /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D _WINDOWS /D WIN32 /D WINDLL /D DLL /D UNZIPLIB /D USE_EF_UT_TIME /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\api.c ..\..\..\crc32.c ..\..\..\win32\crc_i386.c ..\..\..\crctab.c ..\..\..\crypt.c ..\..\..\explode.c ..\..\..\extract.c ..\..\..\fileio.c ..\..\..\globals.c ..\..\..\inflate.c ..\..\..\list.c ..\..\..\match.c ..\..\..\win32\nt.c ..\..\..\process.c ..\..\..\unreduce.c ..\..\..\unshrink.c ..\..\..\win32\win32.c ..\..\windll.c ..\..\..\zipinfo.c
+         api.c
+         crc32.c
+         crc_i386.c
+         crctab.c
+         crypt.c
+         explode.c
+         extract.c
+     1>..\..\..\extract.c(1637): warning C4013: 'inflate_copy' undefined; assuming extern returning int
+         fileio.c
+         globals.c
+         inflate.c
+         list.c
+         match.c
+         nt.c
+         process.c
+         unreduce.c
+         unshrink.c
+         win32.c
+     1>..\..\..\win32\win32.c(497): warning C4996: 'GetVersion': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110) : see declaration of 'GetVersion'
+     1>..\..\..\win32\win32.c(810): warning C4244: 'return' : conversion from 'time_t' to 'int', possible loss of data
+         windll.c
+         zipinfo.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Debug\unz32lib.lib" /NOLOGO Debug\api.obj
+         Debug\crc32.obj
+         Debug\crc_i386.obj
+         Debug\crctab.obj
+         Debug\crypt.obj
+         Debug\explode.obj
+         Debug\extract.obj
+         Debug\fileio.obj
+         Debug\globals.obj
+         Debug\inflate.obj
+         Debug\list.obj
+         Debug\match.obj
+         Debug\nt.obj
+         Debug\process.obj
+         Debug\unreduce.obj
+         Debug\unshrink.obj
+         Debug\win32.obj
+         Debug\windll.obj
+         Debug\zipinfo.obj
+         unz32libv12.vcxproj -> D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Debug\unz32lib.lib
+     1>Done Building Project "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\zipunzip_src\unzip\windll\vc6\lib\unz32libv12.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.30

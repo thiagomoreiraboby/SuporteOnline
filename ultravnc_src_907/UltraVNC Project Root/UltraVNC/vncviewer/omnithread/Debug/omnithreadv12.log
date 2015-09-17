@@ -1,0 +1,15 @@
+﻿Build started 06/07/2015 12:56:44.
+     1>Project "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\omnithread\omnithreadv12.vcxproj" on node 3 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Z7 /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _WINDOWS /D __NT__ /D _WINSTATIC /D __WIN32__ /D _WIN32_WINNT=0x400 /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt nt.cpp
+         nt.cpp
+     1>nt.cpp(472): warning C4297: 'omni_thread_wrapper' : function assumed not to throw an exception but does
+                 The function is extern "C" and /EHc was specified
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Debug\omnithread.lib" /NOLOGO Debug\nt.obj
+         omnithreadv12.vcxproj -> D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Debug\omnithread.lib
+     1>Done Building Project "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\omnithread\omnithreadv12.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.75

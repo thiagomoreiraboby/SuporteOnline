@@ -1,0 +1,86 @@
+﻿@using WebApplication1.Models
+@model IEnumerable<WebApplication1.Models.Cliente>
+
+@{
+    ViewBag.Title = "Clientes";
+}
+
+
+
+    <div class="container">
+        <ul class="nav navbar-nav">
+            <li>@Html.ActionLink("Usuário Logado", "Edit", "UsuarioLogado")</li>
+            <li>@Html.ActionLink("Grupos", "Index", "Grupo")</li>
+            @if (HttpContext.Current.User.IsInRole("Admin"))
+            {
+                <li>@Html.ActionLink("Usuários", "Index", "Usuario")</li>
+                <li>@Html.ActionLink("Empresa", "Edit", "Empresa")</li>
+            }
+
+            @if (HttpContext.Current.User.IsInRole("Sihl"))
+            {
+                <li>@Html.ActionLink("Replicador", "ReplicadorView", "Usuario")</li>
+            }
+        </ul>
+
+    </div>
+
+        @using (Html.BeginForm())
+        {
+            <div class="form-group">
+                @Html.Label("Grupos", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownList("grupo", (IEnumerable<SelectListItem>)ViewBag.grcl_codigotodos, "Selecione um Grupo", new { onchange = "this.form.submit();", @class = "form-control" })
+                </div>
+            </div>
+        }
+        <table class="table">
+            <tr>
+                <th></th>
+                <th>
+                    @Html.DisplayNameFor(model => model.clie_nome)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.clie_status)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.clie_emuso)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.usua_codigo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.grcl_codigo)
+                </th>
+                <th></th>
+            </tr>
+            @foreach (var item in Model)
+            {
+
+                <tr>
+                    <td>
+                        @Html.ActionLink("Acessar", "Abrir", new { Controller = "Acesso", action = "Abrir", id = item.clie_codigo })
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.clie_nome)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.clie_status)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.clie_emuso)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.usuario.usua_nome)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.grupo.grcl_nome)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Editar", "Edit", new { id = item.clie_codigo }) |
+                        @Html.ActionLink("Deletar", "Delete", new { id = item.clie_codigo })
+                    </td>
+                </tr>
+            }
+        </table>

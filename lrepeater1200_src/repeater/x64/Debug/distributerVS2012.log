@@ -1,0 +1,96 @@
+﻿Build started 08/07/2015 10:05:01.
+     1>Project "D:\Dropbox\Dropbox\Fontes vncsihl\lrepeater1200_src\repeater\distributerVS2012.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\PostgreSQL\9.4\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt conexaopost.cpp lists_functions.cpp mode12_listener.cpp mode2_listener_server.cpp socket_functions.cpp
+         conexaopost.cpp
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\repeater.h(48): warning C4005: 'ECONNRESET' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+         lists_functions.cpp
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\repeater.h(48): warning C4005: 'ECONNRESET' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+         mode12_listener.cpp
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\repeater.h(48): warning C4005: 'ECONNRESET' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+     1>mode12_listener.cpp(105): warning C4244: '=' : conversion from 'SOCKET' to 'int', possible loss of data
+     1>mode12_listener.cpp(125): warning C4244: '=' : conversion from 'SOCKET' to 'int', possible loss of data
+         mode2_listener_server.cpp
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\repeater.h(48): warning C4005: 'ECONNRESET' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+     1>mode2_listener_server.cpp(28): warning C4244: '=' : conversion from 'SOCKET' to 'int', possible loss of data
+     1>mode2_listener_server.cpp(47): warning C4244: '=' : conversion from 'SOCKET' to 'int', possible loss of data
+         socket_functions.cpp
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\repeater.h(48): warning C4005: 'ECONNRESET' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+     1>socket_functions.cpp(195): warning C4244: 'argument' : conversion from 'SOCKET' to 'int', possible loss of data
+     1>socket_functions.cpp(387): warning C4244: '=' : conversion from 'SOCKET' to 'int', possible loss of data
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\PostgreSQL\9.4\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\gui1.obj" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt gui.cpp
+         gui.cpp
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\repeater.h(48): warning C4005: 'ECONNRESET' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+     1>gui.cpp(250): warning C4244: 'return' : conversion from 'WPARAM' to 'int', possible loss of data
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\PostgreSQL\9.4\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\repeater1.obj" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt repeater.cpp
+         repeater.cpp
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\repeater.h(48): warning C4005: 'ECONNRESET' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h(100) : see previous definition of 'ECONNRESET'
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\PostgreSQL\9.4\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt webgui\settings.c webgui\webclib.c webgui\webfs.c webgui\webio.c webgui\webobjs.c webgui\websys.c webgui\webtest.c webgui\webutils.c webgui\wsfdata.c
+         settings.c
+     1>webgui\settings.c(220): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>webgui\settings.c(234): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>webgui\settings.c(248): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>webgui\settings.c(317): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         webclib.c
+     1>webgui\webclib.c(45): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>webgui\webclib.c(58): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>webgui\webclib.c(118): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         webfs.c
+         webio.c
+     1>webgui\webio.c(71): warning C4244: '=' : conversion from 'SOCKET' to 'socktype', possible loss of data
+     1>webgui\webio.c(269): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>webgui\webio.c(352): warning C4244: '=' : conversion from 'SOCKET' to 'socktype', possible loss of data
+     1>webgui\webio.c(725): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+         webobjs.c
+         websys.c
+         webtest.c
+     1>webgui\webtest.c(340): warning C4101: 'addr' : unreferenced local variable
+     1>webgui\webtest.c(589): warning C4101: 'viewer_port' : unreferenced local variable
+     1>webgui\webtest.c(595): warning C4101: 'refuse_on' : unreferenced local variable
+     1>webgui\webtest.c(596): warning C4101: 'refuse_con' : unreferenced local variable
+     1>webgui\webtest.c(592): warning C4101: 'allow_con' : unreferenced local variable
+     1>webgui\webtest.c(591): warning C4101: 'allow_on' : unreferenced local variable
+     1>webgui\webtest.c(599): warning C4101: 'id_con' : unreferenced local variable
+     1>webgui\webtest.c(588): warning C4101: 'server_port' : unreferenced local variable
+     1>webgui\webtest.c(600): warning C4101: 'web_port' : unreferenced local variable
+     1>webgui\webtest.c(598): warning C4101: 'id_on' : unreferenced local variable
+         webutils.c
+     1>webgui\webutils.c(105): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>webgui\webutils.c(136): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>webgui\webutils.c(336): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         wsfdata.c
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /l"0x0813" /nologo /fo"x64\Debug\resources.res" resources.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Dropbox\Dropbox\Fontes vncsihl\lrepeater1200_src\repeater\x64\Debug\distributerVS2012.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\PostgreSQL\9.4\lib" odbc32.lib odbccp32.lib wsock32.lib Winmm.lib libpq.lib libpq.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Dropbox\Dropbox\Fontes vncsihl\lrepeater1200_src\repeater\x64\Debug\distributerVS2012.pdb" /SUBSYSTEM:WINDOWS,"5.02" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Dropbox\Dropbox\Fontes vncsihl\lrepeater1200_src\repeater\x64\Debug\distributerVS2012.lib" /MACHINE:X64 x64\Debug\resources.res
+         x64\Debug\conexaopost.obj
+         x64\Debug\lists_functions.obj
+         x64\Debug\mode12_listener.obj
+         x64\Debug\mode2_listener_server.obj
+         x64\Debug\socket_functions.obj
+         x64\Debug\settings.obj
+         x64\Debug\webclib.obj
+         x64\Debug\webfs.obj
+         x64\Debug\webio.obj
+         x64\Debug\webobjs.obj
+         x64\Debug\websys.obj
+         x64\Debug\webtest.obj
+         x64\Debug\webutils.obj
+         x64\Debug\wsfdata.obj
+         x64\Debug\gui1.obj
+         x64\Debug\repeater1.obj
+         distributerVS2012.vcxproj -> D:\Dropbox\Dropbox\Fontes vncsihl\lrepeater1200_src\repeater\x64\Debug\distributerVS2012.exe
+     1>Done Building Project "D:\Dropbox\Dropbox\Fontes vncsihl\lrepeater1200_src\repeater\distributerVS2012.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.99

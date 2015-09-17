@@ -1,0 +1,193 @@
+﻿Build started 25/05/2015 08:55:58.
+     1>Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\libjpeg-turbo-win.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "DebugDll\libjpeg-turbo-win.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "DebugDll\libjpeg-turbo-win.unsuccessfulbuild".
+       CustomBuild:
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jccolmmx.obj" "simd/jccolmmx.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jccolss2.obj" "simd/jccolss2.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jcqnt3dn.obj" "simd/jcqnt3dn.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jcqntmmx.obj" "simd/jcqntmmx.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jcqnts2f.obj" "simd/jcqnts2f.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jcqnts2i.obj" "simd/jcqnts2i.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jcqntsse.obj" "simd/jcqntsse.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jcsammmx.obj" "simd/jcsammmx.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jcsamss2.obj" "simd/jcsamss2.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jdcolmmx.obj" "simd/jdcolmmx.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jdcolss2.obj" "simd/jdcolss2.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jdmermmx.obj" "simd/jdmermmx.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jdmerss2.obj" "simd/jdmerss2.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jdsammmx.obj" "simd/jdsammmx.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jdsamss2.obj" "simd/jdsamss2.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jf3dnflt.obj" "simd/jf3dnflt.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jfmmxfst.obj" "simd/jfmmxfst.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jfmmxint.obj" "simd/jfmmxint.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jfss2fst.obj" "simd/jfss2fst.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jfss2int.obj" "simd/jfss2int.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jfsseflt.obj" "simd/jfsseflt.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\ji3dnflt.obj" "simd/ji3dnflt.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jimmxfst.obj" "simd/jimmxfst.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jimmxint.obj" "simd/jimmxint.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jimmxred.obj" "simd/jimmxred.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jiss2flt.obj" "simd/jiss2flt.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jiss2fst.obj" "simd/jiss2fst.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jiss2int.obj" "simd/jiss2int.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jiss2red.obj" "simd/jiss2red.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jisseflt.obj" "simd/jisseflt.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jsimdcpu.obj" "simd/jsimdcpu.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jcgrass2.obj" "simd/jcgrass2.asm"
+         nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jcgrammx.obj" "simd/jcgrammx.asm"
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./win /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D WITH_SIMD /D _WINDLL /D _UNICODE /D UNICODE /Gm /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"DebugDll\\" /Fd"DebugDll\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt jaricom.c jcapimin.c jcapistd.c jcarith.c jccoefct.c jccolor.c jcdctmgr.c jchuff.c jcinit.c jcmainct.c jcmarker.c jcmaster.c jcomapi.c jcparam.c jcphuff.c jcprepct.c jcsample.c jctrans.c jdapimin.c jdapistd.c jdarith.c jdatadst.c jdatasrc.c jdcoefct.c jdcolor.c jddctmgr.c jdhuff.c jdinput.c jdmainct.c jdmarker.c jdmaster.c jdmerge.c jdphuff.c jdpostct.c jdsample.c jdtrans.c jerror.c jfdctflt.c jfdctfst.c jfdctint.c jidctflt.c jidctfst.c jidctint.c jidctred.c jmemmgr.c jmemnobs.c jquant1.c jquant2.c simd\jsimd_i386.c jutils.c
+         jutils.c
+         jsimd_i386.c
+         jquant2.c
+         jquant1.c
+         jmemnobs.c
+         jmemmgr.c
+         jidctred.c
+         jidctint.c
+         jidctfst.c
+         jidctflt.c
+         jfdctint.c
+         jfdctfst.c
+         jfdctflt.c
+         jerror.c
+         jdtrans.c
+         jdsample.c
+         jdpostct.c
+         jdphuff.c
+         jdmerge.c
+         jdmaster.c
+         Generating Code...
+         Compiling...
+         jdmarker.c
+         jdmainct.c
+         jdinput.c
+         jdhuff.c
+         jddctmgr.c
+         jdcolor.c
+         jdcoefct.c
+         jdatasrc.c
+         jdatadst.c
+         jdarith.c
+         jdapistd.c
+         jdapimin.c
+         jctrans.c
+         jcsample.c
+         jcprepct.c
+         jcphuff.c
+         jcparam.c
+         jcomapi.c
+         jcmaster.c
+         jcmarker.c
+         Generating Code...
+         Compiling...
+         jcmainct.c
+         jcinit.c
+         jchuff.c
+         jcdctmgr.c
+         jccolor.c
+         jccoefct.c
+         jcarith.c
+         jcapistd.c
+         jcapimin.c
+         jaricom.c
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\libjpeg-turbo-win.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"win/jpeg.def" /MANIFEST /ManifestFile:"DebugDll\libjpeg-turbo-win.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\libjpeg-turbo-win.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\libjpeg-turbo-win.lib" /MACHINE:X86 /DLL "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jccolmmx.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jccolss2.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jcqnt3dn.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jcqntmmx.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jcqnts2f.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jcqnts2i.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jcqntsse.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jcsammmx.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jcsamss2.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jdcolmmx.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jdcolss2.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jdmermmx.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jdmerss2.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jdsammmx.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jdsamss2.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jf3dnflt.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jfmmxfst.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jfmmxint.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jfss2fst.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jfss2int.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jfsseflt.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\ji3dnflt.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jimmxfst.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jimmxint.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jimmxred.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jiss2flt.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jiss2fst.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jiss2int.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jiss2red.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jisseflt.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jsimdcpu.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jcgrass2.obj"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\jcgrammx.obj"
+         DebugDll\jaricom.obj
+         DebugDll\jcapimin.obj
+         DebugDll\jcapistd.obj
+         DebugDll\jcarith.obj
+         DebugDll\jccoefct.obj
+         DebugDll\jccolor.obj
+         DebugDll\jcdctmgr.obj
+         DebugDll\jchuff.obj
+         DebugDll\jcinit.obj
+         DebugDll\jcmainct.obj
+         DebugDll\jcmarker.obj
+         DebugDll\jcmaster.obj
+         DebugDll\jcomapi.obj
+         DebugDll\jcparam.obj
+         DebugDll\jcphuff.obj
+         DebugDll\jcprepct.obj
+         DebugDll\jcsample.obj
+         DebugDll\jctrans.obj
+         DebugDll\jdapimin.obj
+         DebugDll\jdapistd.obj
+         DebugDll\jdarith.obj
+         DebugDll\jdatadst.obj
+         DebugDll\jdatasrc.obj
+         DebugDll\jdcoefct.obj
+         DebugDll\jdcolor.obj
+         DebugDll\jddctmgr.obj
+         DebugDll\jdhuff.obj
+         DebugDll\jdinput.obj
+         DebugDll\jdmainct.obj
+         DebugDll\jdmarker.obj
+         DebugDll\jdmaster.obj
+         DebugDll\jdmerge.obj
+         DebugDll\jdphuff.obj
+         DebugDll\jdpostct.obj
+         DebugDll\jdsample.obj
+         DebugDll\jdtrans.obj
+         DebugDll\jerror.obj
+         DebugDll\jfdctflt.obj
+         DebugDll\jfdctfst.obj
+         DebugDll\jfdctint.obj
+         DebugDll\jidctflt.obj
+         DebugDll\jidctfst.obj
+         DebugDll\jidctint.obj
+         DebugDll\jidctred.obj
+         DebugDll\jmemmgr.obj
+         DebugDll\jmemnobs.obj
+         DebugDll\jquant1.obj
+         DebugDll\jquant2.obj
+         DebugDll\jsimd_i386.obj
+         DebugDll\jutils.obj
+            Creating library D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\libjpeg-turbo-win.lib and object D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\libjpeg-turbo-win.exp
+         libjpeg-turbo-win.vcxproj -> D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\libjpeg-turbo-win.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\DebugDll\libjpeg-turbo-win.dll;#2" /manifest "DebugDll\libjpeg-turbo-win.dll.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "DebugDll\libjpeg-turbo-win.unsuccessfulbuild".
+         Touching "DebugDll\libjpeg-turbo-win.lastbuildstate".
+     1>Done Building Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\libjpeg-turbo-win\libjpeg-turbo-win.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.49

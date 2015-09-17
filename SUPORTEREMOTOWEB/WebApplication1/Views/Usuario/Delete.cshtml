@@ -1,0 +1,37 @@
+﻿@model WebApplication1.Models.Usuario
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h3>Deseja realmente deletar esté Usuário?</h3>
+<div>
+    
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.usua_login)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.usua_login)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.usua_nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.usua_nome)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+        
+    @Html.HiddenFor(model => model.usua_codigo)
+        <div class="form-actions no-color">
+            <input type="submit" value="Deletar" class="btn btn-default" /> |
+            @Html.ActionLink("Voltar", "Index")
+        </div>
+    }
+</div>

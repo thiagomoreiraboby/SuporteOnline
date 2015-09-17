@@ -1,0 +1,13 @@
+﻿Build started 02/06/2015 16:31:12.
+     1>Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\omnithread\omnithreadv12.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Z7 /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _WINDOWS /D __NT__ /D _WINSTATIC /D __WIN32__ /D _WIN32_WINNT=0x400 /D _CRT_SECURE_NO_WARNINGS /Gm- /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt nt.cpp
+         nt.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Debug\omnithread.lib" /NOLOGO Debug\nt.obj
+         omnithreadv12.vcxproj -> D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Debug\omnithread.lib
+     1>Done Building Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\omnithread\omnithreadv12.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.51

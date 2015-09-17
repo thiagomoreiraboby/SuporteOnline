@@ -1,0 +1,274 @@
+﻿1>------ Rebuild All started: Project: rdr, Configuration: Debug Win32 ------
+2>------ Rebuild All started: Project: unz32lib, Configuration: Debug Win32 ------
+3>------ Rebuild All started: Project: zip32, Configuration: Debug Win32 ------
+4>------ Rebuild All started: Project: zlibstat, Configuration: Debug Win32 ------
+2>  api.c
+3>  api.c
+4>  adler32.c
+4>  compress.c
+1>  ZlibOutStream.cxx
+4>  crc32.c
+4>  deflate.c
+1>  ZlibInStream.cxx
+3>  crc32.c
+4>  gzclose.c
+1>  NullOutStream.cxx
+4>  gzlib.c
+2>  crc32.c
+4>  gzread.c
+1>  InStream.cxx
+1>  FdOutStream.cxx
+4>  gzwrite.c
+2>  crc_i386.c
+4>  infback.c
+3>  crctab.c
+2>  crctab.c
+4>  inffast.c
+4>  inflate.c
+4>  inftrees.c
+2>  crypt.c
+4>  ioapi.c
+3>  crypt.c
+4>  trees.c
+1>  FdInStream.cxx
+4>  uncompr.c
+2>  explode.c
+4>  unzip.c
+4>  zip.c
+4>  zutil.c
+2>  extract.c
+3>  deflate.c
+4>  Generating Code...
+2>..\..\..\extract.c(1637): warning C4013: 'inflate_copy' undefined; assuming extern returning int
+2>  fileio.c
+3>  fileio.c
+2>  globals.c
+1>  Generating Code...
+2>  inflate.c
+4>  zlibstatv12.vcxproj -> D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\zlib-1.2.5\contrib\vstudio\vc10\x86\ZlibStatDebug\zlibstat.lib
+1>  rdrv12.vcxproj -> D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Debug\rdr.lib
+5>------ Rebuild All started: Project: libjpeg-turbo-win, Configuration: DebugDll Win32 ------
+6>------ Rebuild All started: Project: omnithread, Configuration: Debug Win32 ------
+3>  globals.c
+2>  list.c
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jccolmmx.obj" "simd/jccolmmx.asm"
+2>  match.c
+2>  nt.c
+6>  nt.cpp
+3>  nt.c
+6>nt.cpp(472): warning C4297: 'omni_thread_wrapper' : function assumed not to throw an exception but does
+6>          The function is extern "C" and /EHc was specified
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jccolss2.obj" "simd/jccolss2.asm"
+3>  trees.c
+6>  omnithreadv12.vcxproj -> D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Debug\omnithread.lib
+2>  process.c
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jcqnt3dn.obj" "simd/jcqnt3dn.asm"
+7>------ Rebuild All started: Project: Servicos, Configuration: Debug Any CPU ------
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jcqntmmx.obj" "simd/jcqntmmx.asm"
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jcqnts2f.obj" "simd/jcqnts2f.asm"
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jcqnts2i.obj" "simd/jcqnts2i.asm"
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jcqntsse.obj" "simd/jcqntsse.asm"
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jcsammmx.obj" "simd/jcsammmx.asm"
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jcsamss2.obj" "simd/jcsamss2.asm"
+3>  ttyio.c
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jdcolmmx.obj" "simd/jdcolmmx.asm"
+2>  unreduce.c
+7>D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\Clientes.cs(339,25,339,27): warning CS0168: The variable 'id' is declared but never used
+7>D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\Clientes.cs(381,25,381,27): warning CS0168: The variable 'id' is declared but never used
+7>D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\Clientes.cs(404,25,404,27): warning CS0168: The variable 'id' is declared but never used
+7>  Servicos -> D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\bin\Debug\Servicos.dll
+2>  unshrink.c
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jdcolss2.obj" "simd/jdcolss2.asm"
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jdmermmx.obj" "simd/jdmermmx.asm"
+3>  util.c
+2>  win32.c
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jdmerss2.obj" "simd/jdmerss2.asm"
+8>------ Rebuild All started: Project: ServicoRemoto, Configuration: Debug Any CPU ------
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jdsammmx.obj" "simd/jdsammmx.asm"
+2>..\..\..\win32\win32.c(497): warning C4996: 'GetVersion': was declared deprecated
+2>          C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110) : see declaration of 'GetVersion'
+2>..\..\..\win32\win32.c(810): warning C4244: 'return' : conversion from 'time_t' to 'int', possible loss of data
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jdsamss2.obj" "simd/jdsamss2.asm"
+2>  windll.c
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jf3dnflt.obj" "simd/jf3dnflt.asm"
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jfmmxfst.obj" "simd/jfmmxfst.asm"
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jfmmxint.obj" "simd/jfmmxint.asm"
+3>  win32.c
+8>  ServicoRemoto -> D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\ServicoRemoto\bin\ServicoRemoto.dll
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jfss2fst.obj" "simd/jfss2fst.asm"
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jfss2int.obj" "simd/jfss2int.asm"
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jfsseflt.obj" "simd/jfsseflt.asm"
+2>  zipinfo.c
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\ji3dnflt.obj" "simd/ji3dnflt.asm"
+9>------ Rebuild All started: Project: Suporte SIHL, Configuration: Debug Any CPU ------
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jimmxfst.obj" "simd/jimmxfst.asm"
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jimmxint.obj" "simd/jimmxint.asm"
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jimmxred.obj" "simd/jimmxred.asm"
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jiss2flt.obj" "simd/jiss2flt.asm"
+3>..\..\..\win32\win32.c(324): warning C4244: 'return' : conversion from 'time_t' to 'int', possible loss of data
+3>..\..\..\win32\win32.c(660): warning C4996: 'GetVersion': was declared deprecated
+3>          C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110) : see declaration of 'GetVersion'
+2>  Generating Code...
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jiss2fst.obj" "simd/jiss2fst.asm"
+3>  win32zip.c
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jiss2int.obj" "simd/jiss2int.asm"
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jiss2red.obj" "simd/jiss2red.asm"
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jisseflt.obj" "simd/jisseflt.asm"
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jsimdcpu.obj" "simd/jsimdcpu.asm"
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jcgrass2.obj" "simd/jcgrass2.asm"
+5>  nasm -fwin32 -DWIN32 -DMSVC -Iwin/ -Isimd/ -o "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\jcgrammx.obj" "simd/jcgrammx.asm"
+3>..\..\..\win32\win32zip.c(658): warning C4013: 'printff' undefined; assuming extern returning int
+3>  windll.c
+2>  unz32libv12.vcxproj -> D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Debug\unz32lib.lib
+5>  jutils.c
+5>  jsimd_i386.c
+5>  jquant2.c
+5>  jquant1.c
+5>  jmemnobs.c
+3>  zip.c
+5>  jmemmgr.c
+9>  Suporte SIHL -> D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\Suporte SIHL\bin\Debug\Suporte SIHL.exe
+5>  jidctred.c
+3>  zipfile.c
+5>  jidctint.c
+5>  jidctfst.c
+5>  jidctflt.c
+5>  jfdctint.c
+5>  jfdctfst.c
+5>  jfdctflt.c
+5>  jerror.c
+3>  zipup.c
+5>  jdtrans.c
+5>  jdsample.c
+5>  jdpostct.c
+5>  jdphuff.c
+5>  jdmerge.c
+5>  jdmaster.c
+3>..\..\..\zipup.c(1113): warning C4013: 'deflate_copy' undefined; assuming extern returning int
+5>  Generating Code...
+3>  Generating Code...
+5>  Compiling...
+5>  jdmarker.c
+5>  jdmainct.c
+5>  jdinput.c
+5>  jdhuff.c
+5>  jddctmgr.c
+5>  jdcolor.c
+5>  jdcoefct.c
+5>  jdatasrc.c
+5>  jdatadst.c
+5>  jdarith.c
+5>  jdapistd.c
+5>  jdapimin.c
+3>  zip32v12.vcxproj -> D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Debug\zip32.lib
+5>  jctrans.c
+5>  jcsample.c
+5>  jcprepct.c
+5>  jcphuff.c
+5>  jcparam.c
+5>  jcomapi.c
+5>  jcmaster.c
+5>  jcmarker.c
+5>  Generating Code...
+5>  Compiling...
+5>  jcmainct.c
+5>  jcinit.c
+5>  jchuff.c
+5>  jcdctmgr.c
+5>  jccolor.c
+5>  jccoefct.c
+5>  jcarith.c
+5>  jcapistd.c
+5>  jcapimin.c
+5>  jaricom.c
+5>  Generating Code...
+5>     Creating library D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\libjpeg-turbo-win.lib and object D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\libjpeg-turbo-win.exp
+5>  libjpeg-turbo-winv12.vcxproj -> D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\libjpeg-turbo-win.dll
+10>------ Rebuild All started: Project: sihlviewer, Configuration: Debug Win32 ------
+10>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (vncviewer.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+10>  stdhdrs.cpp
+10>  zrle.cpp
+10>  ZipUnzip32.cpp
+10>  win32_helpers.cpp
+10>  VNCviewerApp32.cpp
+10>  VNCviewerApp.cpp
+10>  vncviewer.cpp
+10>vncviewer.cpp(374): warning C4996: 'GetVersionExA': was declared deprecated
+10>          C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433) : see declaration of 'GetVersionExA'
+10>  VNCOptions.cpp
+10>VNCOptions.cpp(1642): warning C4101: 'huser' : unreferenced local variable
+10>VNCOptions.cpp(1640): warning C4101: 'dw' : unreferenced local variable
+10>  TextChat.cpp
+10>  SessionDialog.cpp
+10>  MRU.cpp
+10>MRU.cpp(41): warning C4101: 'dispos' : unreferenced local variable
+10>MRU.cpp(148): warning C4101: 'valtype' : unreferenced local variable
+10>MRU.cpp(221): warning C4101: 'valtype' : unreferenced local variable
+10>  MessBox2.cpp
+10>  LowLevelHook.cpp
+10>  Log.cpp
+10>  KeyMapjap.cpp
+10>  KeyMap.cpp
+10>  FullScreenTitleBar.cpp
+10>  FileTransfer.cpp
+10>  Exception.cpp
+10>  display.cpp
+10>  directxviewer.cpp
+10>  Generating Code...
+10>  Compiling...
+10>  DSMPlugin.cpp
+10>  dh.cpp
+10>  Daemon.cpp
+10>Daemon.cpp(116): warning C4996: 'WSAAsyncSelect': Use WSAEventSelect() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+10>          C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2699) : see declaration of 'WSAAsyncSelect'
+10>Daemon.cpp(203): warning C4996: 'WSAAsyncSelect': Use WSAEventSelect() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+10>          C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2699) : see declaration of 'WSAAsyncSelect'
+10>  Clipboard.cpp
+10>  ClientConnectionZlibHex.cpp
+10>  ClientConnectionZlib.cpp
+10>  ClientConnectionUltra2.cpp
+10>  ClientConnectionUltra.cpp
+10>  ClientConnectionTight.cpp
+10>  ClientConnectionRRE.cpp
+10>  ClientConnectionRaw.cpp
+10>  ClientConnectionHextile.cpp
+10>  ClientConnectionFullScreen.cpp
+10>  ClientConnectionFile.cpp
+10>  ClientConnectionCursor.cpp
+10>  ClientConnectionCoRRE.cpp
+10>  ClientConnectionCopyRect.cpp
+10>  ClientConnectionClipboard.cpp
+10>  ClientConnectionCacheRect.cpp
+10>  ClientConnection.cpp
+10>  TODO - Localize these new menu strings!
+10>ClientConnection.cpp(1796): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+10>          C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1850) : see declaration of 'inet_addr'
+10>ClientConnection.cpp(1801): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+10>          C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2238) : see declaration of 'gethostbyname'
+10>ClientConnection.cpp(1858): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+10>          C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1850) : see declaration of 'inet_addr'
+10>ClientConnection.cpp(1863): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+10>          C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2238) : see declaration of 'gethostbyname'
+10>ClientConnection.cpp(2591): warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+10>ClientConnection.cpp(2592): warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+10>ClientConnection.cpp(5197): warning C4018: '>' : signed/unsigned mismatch
+10>ClientConnection.cpp(5833): warning C4018: '<' : signed/unsigned mismatch
+10>ClientConnection.cpp(6471): warning C4244: 'argument' : conversion from '__int64' to 'UINT', possible loss of data
+10>ClientConnection.cpp(6472): warning C4244: 'argument' : conversion from '__int64' to 'UINT', possible loss of data
+10>  Generating Code...
+10>  Compiling...
+10>  buildtime.cpp
+10>  AuthDialog.cpp
+10>AuthDialog.cpp(56): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+10>          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(937) : see declaration of 'itoa'
+10>  AccelKeys.cpp
+10>  AboutBox.cpp
+10>  Generating Code...
+10>  vncauth.c
+10>  minilzo.c
+10>  d3des.c
+10>  Generating Code...
+10>  buildtime.cpp
+10>rdr.lib(FdInStream.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+10>  vncviewerv12.vcxproj -> D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Debug\sihlviewer.exe
+========== Rebuild All: 10 succeeded, 0 failed, 0 skipped ==========

@@ -1,0 +1,20 @@
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\ServicoRemoto\bin\ServicoRemoto.dll.config
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\ServicoRemoto\bin\ServicoRemoto.dll
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\ServicoRemoto\bin\ServicoRemoto.pdb
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\ServicoRemoto\bin\Servicos.dll
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\ServicoRemoto\bin\Npgsql.dll
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\ServicoRemoto\bin\Mono.Security.dll
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\ServicoRemoto\bin\Servicos.pdb
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\ServicoRemoto\obj\Debug\ServicoRemoto.csprojResolveAssemblyReference.cache
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\ServicoRemoto\obj\Debug\ServicoRemoto.dll
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\ServicoRemoto\obj\Debug\ServicoRemoto.pdb
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\ServicoRemoto\bin\ServicoRemoto.dll.config
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\ServicoRemoto\bin\ServicoRemoto.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\ServicoRemoto\bin\ServicoRemoto.pdb
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\ServicoRemoto\bin\Mono.Security.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\ServicoRemoto\bin\Npgsql.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\ServicoRemoto\bin\Servicos.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\ServicoRemoto\bin\Servicos.pdb
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\ServicoRemoto\obj\Debug\ServicoRemoto.csprojResolveAssemblyReference.cache
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\ServicoRemoto\obj\Debug\ServicoRemoto.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\ServicoRemoto\obj\Debug\ServicoRemoto.pdb

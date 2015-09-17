@@ -1,0 +1,92 @@
+﻿Build started 07/07/2015 11:16:07.
+     1>Project "D:\Dropbox\Dropbox\Fontes vncsihl\lrepeater1200_src\repeater\distributerVS2012.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\PostgreSQL\9.4\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt lists_functions.cpp mode12_listener.cpp mode2_listener_server.cpp socket_functions.cpp
+         socket_functions.cpp
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\repeater.h(43): warning C4005: 'ECONNRESET' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\errno.h(100) : see previous definition of 'ECONNRESET'
+         mode2_listener_server.cpp
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\repeater.h(43): warning C4005: 'ECONNRESET' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\errno.h(100) : see previous definition of 'ECONNRESET'
+         mode12_listener.cpp
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\repeater.h(43): warning C4005: 'ECONNRESET' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\errno.h(100) : see previous definition of 'ECONNRESET'
+         lists_functions.cpp
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\repeater.h(43): warning C4005: 'ECONNRESET' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\errno.h(100) : see previous definition of 'ECONNRESET'
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\lists_functions.cpp(156): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\lists_functions.cpp(175): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\PostgreSQL\9.4\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\gui1.obj" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt gui.cpp
+         gui.cpp
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\repeater.h(43): warning C4005: 'ECONNRESET' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\errno.h(100) : see previous definition of 'ECONNRESET'
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\PostgreSQL\9.4\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\repeater1.obj" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt repeater.cpp
+         repeater.cpp
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\repeater.h(43): warning C4005: 'ECONNRESET' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\errno.h(100) : see previous definition of 'ECONNRESET'
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\PostgreSQL\9.4\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt webgui\settings.c webgui\webclib.c webgui\webfs.c webgui\webio.c webgui\webobjs.c webgui\websys.c webgui\webtest.c webgui\webutils.c webgui\wsfdata.c
+         wsfdata.c
+         webutils.c
+         webtest.c
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\webgui\webtest.c(337): warning C4101: 'addr' : unreferenced local variable
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\webgui\webtest.c(586): warning C4101: 'viewer_port' : unreferenced local variable
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\webgui\webtest.c(592): warning C4101: 'refuse_on' : unreferenced local variable
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\webgui\webtest.c(593): warning C4101: 'refuse_con' : unreferenced local variable
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\webgui\webtest.c(589): warning C4101: 'allow_con' : unreferenced local variable
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\webgui\webtest.c(588): warning C4101: 'allow_on' : unreferenced local variable
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\webgui\webtest.c(596): warning C4101: 'id_con' : unreferenced local variable
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\webgui\webtest.c(585): warning C4101: 'server_port' : unreferenced local variable
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\webgui\webtest.c(597): warning C4101: 'web_port' : unreferenced local variable
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\webgui\webtest.c(595): warning C4101: 'id_on' : unreferenced local variable
+         websys.c
+         webobjs.c
+         webio.c
+         webfs.c
+         webclib.c
+         settings.c
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\webgui\settings.c(375): warning C4013: 'atualizacliente1' undefined; assuming extern returning int
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\webgui\settings.c(375): warning C4013: 'ConnectDB' undefined; assuming extern returning int
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\webgui\settings.c(405): warning C4013: 'atualizacliente' undefined; assuming extern returning int
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\webgui\settings.c(481): warning C4013: 'nemusocliente' undefined; assuming extern returning int
+     1>d:\dropbox\dropbox\fontes vncsihl\lrepeater1200_src\repeater\webgui\settings.c(533): warning C4013: 'emusocliente' undefined; assuming extern returning int
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /l"0x0813" /nologo /fo"Debug\resources.res" resources.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Dropbox\Dropbox\Fontes vncsihl\lrepeater1200_src\repeater\Debug\distributerVS2012.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\PostgreSQL\9.4\lib" odbc32.lib odbccp32.lib wsock32.lib Winmm.lib libpq.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Dropbox\Dropbox\Fontes vncsihl\lrepeater1200_src\repeater\Debug\distributerVS2012.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Dropbox\Dropbox\Fontes vncsihl\lrepeater1200_src\repeater\Debug\distributerVS2012.lib" /MACHINE:X86 /SAFESEH Debug\resources.res
+         Debug\lists_functions.obj
+         Debug\mode12_listener.obj
+         Debug\mode2_listener_server.obj
+         Debug\socket_functions.obj
+         Debug\settings.obj
+         Debug\webclib.obj
+         Debug\webfs.obj
+         Debug\webio.obj
+         Debug\webobjs.obj
+         Debug\websys.obj
+         Debug\webtest.obj
+         Debug\webutils.obj
+         Debug\wsfdata.obj
+         Debug\gui1.obj
+         Debug\repeater1.obj
+     1>lists_functions.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     1>lists_functions.obj : error LNK2019: unresolved external symbol _PQconnectdb referenced in function "void __cdecl `dynamic initializer for 'conn''(void)" (??__Econn@@YAXXZ)
+     1>lists_functions.obj : error LNK2019: unresolved external symbol _PQfinish referenced in function "void * __cdecl CloseConn(struct pg_conn *)" (?CloseConn@@YAPAXPAUpg_conn@@@Z)
+     1>lists_functions.obj : error LNK2019: unresolved external symbol _PQstatus referenced in function "struct pg_conn * __cdecl ConnectDB(void)" (?ConnectDB@@YAPAUpg_conn@@XZ)
+     1>lists_functions.obj : error LNK2019: unresolved external symbol _PQexec referenced in function "void __cdecl atualizacliente1(struct pg_conn *)" (?atualizacliente1@@YAXPAUpg_conn@@@Z)
+     1>lists_functions.obj : error LNK2019: unresolved external symbol _PQresultStatus referenced in function "void __cdecl atualizacliente1(struct pg_conn *)" (?atualizacliente1@@YAXPAUpg_conn@@@Z)
+     1>lists_functions.obj : error LNK2019: unresolved external symbol _PQclear referenced in function "void __cdecl atualizacliente1(struct pg_conn *)" (?atualizacliente1@@YAXPAUpg_conn@@@Z)
+     1>settings.obj : error LNK2019: unresolved external symbol _atualizacliente1 referenced in function _list_servers
+     1>settings.obj : error LNK2019: unresolved external symbol _ConnectDB referenced in function _list_connections
+     1>settings.obj : error LNK2019: unresolved external symbol _atualizacliente referenced in function _list_servers
+     1>settings.obj : error LNK2019: unresolved external symbol _nemusocliente referenced in function _list_connections
+     1>settings.obj : error LNK2019: unresolved external symbol _emusocliente referenced in function _list_connections
+     1>D:\Dropbox\Dropbox\Fontes vncsihl\lrepeater1200_src\repeater\Debug\distributerVS2012.exe : fatal error LNK1120: 11 unresolved externals
+     1>Done Building Project "D:\Dropbox\Dropbox\Fontes vncsihl\lrepeater1200_src\repeater\distributerVS2012.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.64

@@ -1,0 +1,51 @@
+﻿Build started 02/06/2015 16:30:19.
+     1>Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\zlib-1.2.5\contrib\vstudio\vc10\zlibstatv12.vcxproj" on node 3 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\.. /I..\..\masmx86 /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D ZLIB_WINAPI /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_WARNINGS /GF /Gm- /MT /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x86\ZlibStatReleaseWithoutAsm\Tmp\\" /Fd"x86\ZlibStatReleaseWithoutAsm\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\adler32.c ..\..\..\compress.c ..\..\..\crc32.c ..\..\..\deflate.c ..\..\..\gzclose.c ..\..\..\gzlib.c ..\..\..\gzread.c ..\..\..\gzwrite.c ..\..\..\infback.c ..\..\..\inffast.c ..\..\..\inflate.c ..\..\..\inftrees.c ..\..\minizip\ioapi.c ..\..\..\trees.c ..\..\..\uncompr.c ..\..\minizip\unzip.c ..\..\minizip\zip.c ..\..\..\zutil.c
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzclose.c
+         gzlib.c
+         gzread.c
+         gzwrite.c
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         ioapi.c
+         trees.c
+         uncompr.c
+         unzip.c
+         zip.c
+         zutil.c
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x040c" /nologo /fo"x86\ZlibStatReleaseWithoutAsm\Tmp\zlib.res" zlib.rc 
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"x86\ZlibStatReleaseWithoutAsm\zlibstat.lib" /NOLOGO /MACHINE:X86 /NODEFAULTLIB x86\ZlibStatReleaseWithoutAsm\Tmp\zlib.res
+         x86\ZlibStatReleaseWithoutAsm\Tmp\adler32.obj
+         x86\ZlibStatReleaseWithoutAsm\Tmp\compress.obj
+         x86\ZlibStatReleaseWithoutAsm\Tmp\crc32.obj
+         x86\ZlibStatReleaseWithoutAsm\Tmp\deflate.obj
+         x86\ZlibStatReleaseWithoutAsm\Tmp\gzclose.obj
+         x86\ZlibStatReleaseWithoutAsm\Tmp\gzlib.obj
+         x86\ZlibStatReleaseWithoutAsm\Tmp\gzread.obj
+         x86\ZlibStatReleaseWithoutAsm\Tmp\gzwrite.obj
+         x86\ZlibStatReleaseWithoutAsm\Tmp\infback.obj
+         x86\ZlibStatReleaseWithoutAsm\Tmp\inffast.obj
+         x86\ZlibStatReleaseWithoutAsm\Tmp\inflate.obj
+         x86\ZlibStatReleaseWithoutAsm\Tmp\inftrees.obj
+         x86\ZlibStatReleaseWithoutAsm\Tmp\ioapi.obj
+         x86\ZlibStatReleaseWithoutAsm\Tmp\trees.obj
+         x86\ZlibStatReleaseWithoutAsm\Tmp\uncompr.obj
+         x86\ZlibStatReleaseWithoutAsm\Tmp\unzip.obj
+         x86\ZlibStatReleaseWithoutAsm\Tmp\zip.obj
+         x86\ZlibStatReleaseWithoutAsm\Tmp\zutil.obj
+         zlibstatv12.vcxproj -> D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\zlib-1.2.5\contrib\vstudio\vc10\x86\ZlibStatReleaseWithoutAsm\zlibstat.lib
+     1>Done Building Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\zlib-1.2.5\contrib\vstudio\vc10\zlibstatv12.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.96

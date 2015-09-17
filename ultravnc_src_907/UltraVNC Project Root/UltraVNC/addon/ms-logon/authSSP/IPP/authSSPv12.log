@@ -1,0 +1,26 @@
+﻿Build started 02/06/2015 16:30:25.
+     1>Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\addon\ms-logon\authSSP\authSSPv12.vcxproj" on node 5 (Rebuild target(s)).
+     1>CustomBuild:
+         Create Buildtime for VERSIONINFO
+         buildtime.in
+                 1 arquivo(s) movido(s).
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D NDEBUG /D WIN32 /D _WINDOWS /D AUTHSSP_EXPORTS /D UNICODE /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\..\..\Release/" /Fd".\..\..\Release/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt authSSP.cpp EventLogging.cpp GenClientServerContext.cpp vncAccessControl.cpp vncSecurityEditor.cpp vncSSP.cpp
+         authSSP.cpp
+     1>authSSP.cpp : fatal error C1041: cannot open program database 'd:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\addon\release\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         EventLogging.cpp
+     1>EventLogging.cpp : fatal error C1041: cannot open program database 'd:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\addon\release\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         GenClientServerContext.cpp
+     1>GenClientServerContext.cpp : fatal error C1041: cannot open program database 'd:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\addon\release\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         vncAccessControl.cpp
+     1>vncAccessControl.cpp : fatal error C1041: cannot open program database 'd:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\addon\release\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         vncSecurityEditor.cpp
+     1>vncSecurityEditor.cpp : fatal error C1041: cannot open program database 'd:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\addon\release\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         vncSSP.cpp
+     1>vncSSP.cpp : fatal error C1041: cannot open program database 'd:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\addon\release\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         Generating Code...
+     1>Done Building Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\addon\ms-logon\authSSP\authSSPv12.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.32

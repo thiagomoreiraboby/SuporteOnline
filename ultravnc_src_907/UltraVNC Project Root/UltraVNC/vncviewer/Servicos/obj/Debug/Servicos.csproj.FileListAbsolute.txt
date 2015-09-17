@@ -1,0 +1,13 @@
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\bin\Debug\Servicos.dll
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\bin\Debug\Servicos.pdb
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\bin\Debug\Mono.Security.dll
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\bin\Debug\Npgsql.dll
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\obj\Debug\Servicos.dll
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\obj\Debug\Servicos.pdb
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\obj\Debug\Servicos.csprojResolveAssemblyReference.cache
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\bin\Debug\Servicos.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\bin\Debug\Servicos.pdb
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\bin\Debug\Mono.Security.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\bin\Debug\Npgsql.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\obj\Debug\Servicos.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Servicos\obj\Debug\Servicos.pdb

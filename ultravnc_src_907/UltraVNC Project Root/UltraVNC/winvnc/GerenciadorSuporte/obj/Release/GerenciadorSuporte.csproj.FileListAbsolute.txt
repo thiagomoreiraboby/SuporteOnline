@@ -1,0 +1,34 @@
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\bin\Release\GerenciadorSuporte.exe
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\bin\Release\GerenciadorSuporte.pdb
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\obj\Release\MainWindow.baml
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\obj\Release\MainWindow.g.cs
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\obj\Release\App.g.cs
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\obj\Release\GerenciadorSuporte_MarkupCompile.cache
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\obj\Release\GerenciadorSuporte.g.resources
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\obj\Release\GerenciadorSuporte.Properties.Resources.resources
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\obj\Release\GerenciadorSuporte.csproj.GenerateResource.Cache
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\obj\Release\GerenciadorSuporte.exe
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\obj\Release\GerenciadorSuporte.pdb
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\bin\Release\GerenciadorSuporte.exe.config
+D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\obj\Release\GerenciadorSuporte.csprojResolveAssemblyReference.cache
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\bin\Release\GerenciadorSuporte.exe.config
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\bin\Release\GerenciadorSuporte.exe
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\bin\Release\GerenciadorSuporte.pdb
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\obj\Release\MainWindow.baml
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\obj\Release\MainWindow.g.cs
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\obj\Release\App.g.cs
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\obj\Release\GerenciadorSuporte_MarkupCompile.cache
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\obj\Release\GerenciadorSuporte.g.resources
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\obj\Release\GerenciadorSuporte.Properties.Resources.resources
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\obj\Release\GerenciadorSuporte.csproj.GenerateResource.Cache
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\obj\Release\GerenciadorSuporte.exe
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\obj\Release\GerenciadorSuporte.pdb
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\bin\Release\Mono.Security.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\bin\Release\Npgsql.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\bin\Release\Npgsql.xml
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\bin\Release\de\Npgsql.resources.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\bin\Release\es\Npgsql.resources.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\bin\Release\fi\Npgsql.resources.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\bin\Release\fr\Npgsql.resources.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\bin\Release\ja\Npgsql.resources.dll
+D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\GerenciadorSuporte\bin\Release\zh-CN\Npgsql.resources.dll

@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\VNC\testesuporte</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>06/19/2015 08:14:11</publishTime>
+    </File>
+    <File Include="bin/de/Npgsql.resources.dll">
+      <publishTime>06/19/2015 08:57:09</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>06/19/2015 08:51:13</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>06/19/2015 08:51:13</publishTime>
+    </File>
+    <File Include="bin/es/Npgsql.resources.dll">
+      <publishTime>06/19/2015 08:57:09</publishTime>
+    </File>
+    <File Include="bin/fi/Npgsql.resources.dll">
+      <publishTime>06/19/2015 08:57:09</publishTime>
+    </File>
+    <File Include="bin/fr/Npgsql.resources.dll">
+      <publishTime>06/19/2015 08:57:09</publishTime>
+    </File>
+    <File Include="bin/ja/Npgsql.resources.dll">
+      <publishTime>06/19/2015 08:57:09</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>08/07/2013 15:15:08</publishTime>
+    </File>
+    <File Include="bin/Mono.Security.dll">
+      <publishTime>06/19/2015 08:57:09</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>06/19/2015 08:14:12</publishTime>
+    </File>
+    <File Include="bin/Npgsql.dll">
+      <publishTime>06/19/2015 08:57:09</publishTime>
+    </File>
+    <File Include="bin/Npgsql.EntityFramework.dll">
+      <publishTime>06/19/2015 09:26:03</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>09/07/2013 11:05:10</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>06/19/2015 08:14:11</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>06/19/2015 08:14:10</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>06/19/2015 08:14:10</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>06/19/2015 08:14:10</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>06/19/2015 08:14:11</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>06/19/2015 08:14:11</publishTime>
+    </File>
+    <File Include="bin/WebApplication1.dll">
+      <publishTime>07/16/2015 14:50:51</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>06/24/2015 13:52:25</publishTime>
+    </File>
+    <File Include="bin/zh-CN/Npgsql.resources.dll">
+      <publishTime>06/19/2015 08:57:09</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>06/25/2015 10:59:31</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min - padrao.css">
+      <publishTime>06/19/2015 08:14:06</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>06/24/2015 14:24:55</publishTime>
+    </File>
+    <File Include="Content/bootstrappadrao.css">
+      <publishTime>06/19/2015 08:14:06</publishTime>
+    </File>
+    <File Include="Content/logo.png">
+      <publishTime>06/22/2015 16:29:02</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>06/07/2015 17:43:35</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>06/19/2015 08:13:59</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>06/19/2015 08:14:06</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>06/19/2015 08:14:06</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>06/19/2015 08:14:06</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>06/19/2015 08:14:06</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>06/19/2015 08:13:59</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>06/24/2015 13:54:47</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>06/19/2015 08:14:06</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>06/19/2015 08:14:05</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>06/19/2015 08:14:07</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>06/19/2015 08:14:07</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>06/19/2015 08:14:07</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>06/19/2015 08:14:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>06/19/2015 08:14:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>06/19/2015 08:14:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>06/19/2015 08:14:12</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>06/19/2015 08:14:11</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>06/19/2015 08:14:12</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>06/19/2015 08:14:12</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>06/19/2015 08:14:11</publishTime>
+    </File>
+    <File Include="suportesihlweb.pfx">
+      <publishTime>06/22/2015 15:19:47</publishTime>
+    </File>
+    <File Include="Views/acesso/Abrir.cshtml">
+      <publishTime>07/14/2015 17:31:01</publishTime>
+    </File>
+    <File Include="Views/acesso/Download.cshtml">
+      <publishTime>07/10/2015 09:27:11</publishTime>
+    </File>
+    <File Include="Views/autenticacao/LogOn.cshtml">
+      <publishTime>06/30/2015 10:49:38</publishTime>
+    </File>
+    <File Include="Views/Clientes/Delete.cshtml">
+      <publishTime>07/16/2015 14:47:15</publishTime>
+    </File>
+    <File Include="Views/Clientes/Details.cshtml">
+      <publishTime>06/24/2015 17:00:23</publishTime>
+    </File>
+    <File Include="Views/Clientes/Edit.cshtml">
+      <publishTime>07/16/2015 14:47:05</publishTime>
+    </File>
+    <File Include="Views/Clientes/Index.cshtml">
+      <publishTime>07/16/2015 14:47:48</publishTime>
+    </File>
+    <File Include="Views/Empresa/Create.cshtml">
+      <publishTime>07/16/2015 14:43:47</publishTime>
+    </File>
+    <File Include="Views/Empresa/Edit.cshtml">
+      <publishTime>07/16/2015 14:44:08</publishTime>
+    </File>
+    <File Include="Views/Error/AccessDenied.cshtml">
+      <publishTime>06/30/2015 08:59:04</publishTime>
+    </File>
+    <File Include="Views/Grupo/Create.cshtml">
+      <publishTime>07/16/2015 14:48:28</publishTime>
+    </File>
+    <File Include="Views/Grupo/Delete.cshtml">
+      <publishTime>07/16/2015 14:48:47</publishTime>
+    </File>
+    <File Include="Views/Grupo/Edit.cshtml">
+      <publishTime>07/16/2015 14:49:09</publishTime>
+    </File>
+    <File Include="Views/Grupo/Index.cshtml">
+      <publishTime>07/16/2015 15:30:27</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>07/14/2015 17:34:13</publishTime>
+    </File>
+    <File Include="Views/Index.cshtml">
+      <publishTime>06/22/2015 10:36:58</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>06/19/2015 08:13:59</publishTime>
+    </File>
+    <File Include="Views/Shared/_Flash.cshtml">
+      <publishTime>06/30/2015 13:19:42</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>07/16/2015 14:38:47</publishTime>
+    </File>
+    <File Include="Views/Shared/_LoginPartial.cshtml">
+      <publishTime>07/15/2015 13:17:52</publishTime>
+    </File>
+    <File Include="Views/usuario/Create.cshtml">
+      <publishTime>07/07/2015 08:42:55</publishTime>
+    </File>
+    <File Include="Views/usuario/Delete.cshtml">
+      <publishTime>07/08/2015 16:13:41</publishTime>
+    </File>
+    <File Include="Views/usuario/Details.cshtml">
+      <publishTime>06/25/2015 09:09:54</publishTime>
+    </File>
+    <File Include="Views/usuario/Edit.cshtml">
+      <publishTime>07/16/2015 14:59:39</publishTime>
+    </File>
+    <File Include="Views/usuario/Index.cshtml">
+      <publishTime>07/16/2015 15:31:13</publishTime>
+    </File>
+    <File Include="Views/Usuario/ReplicadorView.cshtml">
+      <publishTime>07/07/2015 10:31:50</publishTime>
+    </File>
+    <File Include="Views/UsuarioLogado/Details.cshtml">
+      <publishTime>01/07/2015 16:41:35</publishTime>
+    </File>
+    <File Include="Views/UsuarioLogado/Edit.cshtml">
+      <publishTime>07/16/2015 15:31:24</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>06/24/2015 13:38:54</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>06/19/2015 08:13:59</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/15/2015 10:56:03</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

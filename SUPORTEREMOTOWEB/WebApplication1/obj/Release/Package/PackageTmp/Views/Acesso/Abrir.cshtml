@@ -1,0 +1,62 @@
+﻿@model WebApplication1.Models.Cliente
+
+@{
+    ViewBag.Title = "Abrir";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+   @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.clie_codigo)
+    @Html.HiddenFor(model => model.clie_nome)
+    @Html.HiddenFor(model => model.clie_obs)
+    @Html.HiddenFor(model => model.clie_idvnc)
+    @Html.HiddenFor(model => model.clie_status)
+    @Html.HiddenFor(model => model.empr_codigo)
+    @Html.HiddenFor(model => model.empresa)
+    @Html.HiddenFor(model => model.grcl_codigo)
+    @Html.HiddenFor(model => model.grupo)
+    @Html.HiddenFor(model => model.usua_codigo)
+    @Html.HiddenFor(model => model.usuario)
+    @Html.HiddenFor(model => model.clie_emuso)
+    <div class="form-horizontal">
+        <hr/>
+        <div>
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.clie_codigo)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.clie_codigo)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.clie_nome)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.clie_nome)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.clie_obs)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.clie_obs)
+                </dd>
+            </dl>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <!--input type="submit" value="Conectar" class="btn btn-default" onclick=" window.open('webrun:C:\\SIHL\\SCSP\\AcessoRemoto\\sihlviewer.exe -proxy 186.202.116.166:16168 id:' + @Model.clie_idvnc.ToString(), '_blank', 'width=600,height =400,toolbar =0,menubar =0,resizable =1,scrollbars =1,location =0') "/-->
+
+                <a href="webrun:C:\\SIHL\\SCSP\\AcessoRemoto\\sihlviewer.exe -proxy 186.202.116.166:16168 id:@Model.clie_idvnc.ToString()"> conectar </a>
+            </div>
+        </div>
+    </div>
+    <p>
+        @Html.ActionLink("Voltar", "Index", "Clientes")
+    </p>
+}
+
+

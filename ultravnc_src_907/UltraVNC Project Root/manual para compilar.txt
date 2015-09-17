@@ -1,0 +1,6 @@
+You need to download nasm 
+http://www.nasm.us/
+
+
+libjpeg-turbo-win - properties - VC++ Directories - Executable Directories - Add path to forlder nasm.exe
+

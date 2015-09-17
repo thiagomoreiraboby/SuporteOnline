@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: distributer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo".\Debug/resources.res" /d "_DEBUG" "N:\FEB2007\repeater\resources.rc"" 
+Creating temporary file "C:\DOCUME~1\rudi\LOCALS~1\Temp\RSPC.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp".\Debug/distributer.pch" /YX /Fo".\Debug/" /Fd".\Debug/" /GZ /fast /c 
+"N:\FEB2007\repeater\gui.cpp"
+"N:\FEB2007\repeater\repeater.cpp"
+]
+Creating command line "xicl6.exe @C:\DOCUME~1\rudi\LOCALS~1\Temp\RSPC.tmp" 
+Creating temporary file "C:\DOCUME~1\rudi\LOCALS~1\Temp\RSPD.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib odbc32.lib odbccp32.lib wsock32.lib /nologo /subsystem:windows /incremental:yes /pdb:".\Debug/distributer.pdb" /debug /machine:IX86 /out:".\Debug/distributer.exe" /pdbtype:sept 
+.\Debug\gui.obj
+.\Debug\repeater.obj
+.\Debug\resources.res
+]
+Creating command line "xilink6.exe @C:\DOCUME~1\rudi\LOCALS~1\Temp\RSPD.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+gui.cpp
+icl: warning: disabling optimization; runtime debug checks enabled
+repeater.cpp
+Linking...
+xilink6: executing 'C:\PROGRA~1\MIAF9D~1\VC98\Bin\link.exe'
+
+
+
+<h3>Results</h3>
+distributer.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

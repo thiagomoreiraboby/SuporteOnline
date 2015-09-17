@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://www.sihlremoto.servicos.ws/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://www.sihlremoto.servicos.ws/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://www.sihlremoto.servicos.ws/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Servicos.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IClientes_Salvarcliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:Salvarcliente" />
+  </wsdl:message>
+  <wsdl:message name="IClientes_Salvarcliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SalvarclienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientes_Deletetarcliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:Deletetarcliente" />
+  </wsdl:message>
+  <wsdl:message name="IClientes_Deletetarcliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeletetarclienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientes_Listarcliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:Listarcliente" />
+  </wsdl:message>
+  <wsdl:message name="IClientes_Listarcliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarclienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientes_Logarusuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:Logarusuario" />
+  </wsdl:message>
+  <wsdl:message name="IClientes_Logarusuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LogarusuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientes_Usuarioatualizarusuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:Usuarioatualizarusuario" />
+  </wsdl:message>
+  <wsdl:message name="IClientes_Usuarioatualizarusuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UsuarioatualizarusuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientes_Bloquearcliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:Bloquearcliente" />
+  </wsdl:message>
+  <wsdl:message name="IClientes_Bloquearcliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BloquearclienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientes_Clientebloqueado_InputMessage">
+    <wsdl:part name="parameters" element="tns:Clientebloqueado" />
+  </wsdl:message>
+  <wsdl:message name="IClientes_Clientebloqueado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ClientebloqueadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientes_Atualizarcliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:Atualizarcliente" />
+  </wsdl:message>
+  <wsdl:message name="IClientes_Atualizarcliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AtualizarclienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientes_NomeCliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:NomeCliente" />
+  </wsdl:message>
+  <wsdl:message name="IClientes_NomeCliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NomeClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientes_Listargrupo_InputMessage">
+    <wsdl:part name="parameters" element="tns:Listargrupo" />
+  </wsdl:message>
+  <wsdl:message name="IClientes_Listargrupo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListargrupoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientes_SalvarGrupo_InputMessage">
+    <wsdl:part name="parameters" element="tns:SalvarGrupo" />
+  </wsdl:message>
+  <wsdl:message name="IClientes_SalvarGrupo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SalvarGrupoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientes_Deletetargrupo_InputMessage">
+    <wsdl:part name="parameters" element="tns:Deletetargrupo" />
+  </wsdl:message>
+  <wsdl:message name="IClientes_Deletetargrupo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeletetargrupoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IClientes">
+    <wsdl:operation name="Salvarcliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientes/Salvarcliente" message="tns:IClientes_Salvarcliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientes/SalvarclienteResponse" message="tns:IClientes_Salvarcliente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Deletetarcliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientes/Deletetarcliente" message="tns:IClientes_Deletetarcliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientes/DeletetarclienteResponse" message="tns:IClientes_Deletetarcliente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Listarcliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientes/Listarcliente" message="tns:IClientes_Listarcliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientes/ListarclienteResponse" message="tns:IClientes_Listarcliente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Logarusuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientes/Logarusuario" message="tns:IClientes_Logarusuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientes/LogarusuarioResponse" message="tns:IClientes_Logarusuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Usuarioatualizarusuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientes/Usuarioatualizarusuario" message="tns:IClientes_Usuarioatualizarusuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientes/UsuarioatualizarusuarioResponse" message="tns:IClientes_Usuarioatualizarusuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Bloquearcliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientes/Bloquearcliente" message="tns:IClientes_Bloquearcliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientes/BloquearclienteResponse" message="tns:IClientes_Bloquearcliente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Clientebloqueado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientes/Clientebloqueado" message="tns:IClientes_Clientebloqueado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientes/ClientebloqueadoResponse" message="tns:IClientes_Clientebloqueado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Atualizarcliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientes/Atualizarcliente" message="tns:IClientes_Atualizarcliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientes/AtualizarclienteResponse" message="tns:IClientes_Atualizarcliente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NomeCliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientes/NomeCliente" message="tns:IClientes_NomeCliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientes/NomeClienteResponse" message="tns:IClientes_NomeCliente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Listargrupo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientes/Listargrupo" message="tns:IClientes_Listargrupo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientes/ListargrupoResponse" message="tns:IClientes_Listargrupo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SalvarGrupo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientes/SalvarGrupo" message="tns:IClientes_SalvarGrupo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientes/SalvarGrupoResponse" message="tns:IClientes_SalvarGrupo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Deletetargrupo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientes/Deletetargrupo" message="tns:IClientes_Deletetargrupo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientes/DeletetargrupoResponse" message="tns:IClientes_Deletetargrupo_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IClientes" type="tns:IClientes">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Salvarcliente">
+      <soap:operation soapAction="http://tempuri.org/IClientes/Salvarcliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Deletetarcliente">
+      <soap:operation soapAction="http://tempuri.org/IClientes/Deletetarcliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Listarcliente">
+      <soap:operation soapAction="http://tempuri.org/IClientes/Listarcliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Logarusuario">
+      <soap:operation soapAction="http://tempuri.org/IClientes/Logarusuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Usuarioatualizarusuario">
+      <soap:operation soapAction="http://tempuri.org/IClientes/Usuarioatualizarusuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Bloquearcliente">
+      <soap:operation soapAction="http://tempuri.org/IClientes/Bloquearcliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Clientebloqueado">
+      <soap:operation soapAction="http://tempuri.org/IClientes/Clientebloqueado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Atualizarcliente">
+      <soap:operation soapAction="http://tempuri.org/IClientes/Atualizarcliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NomeCliente">
+      <soap:operation soapAction="http://tempuri.org/IClientes/NomeCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Listargrupo">
+      <soap:operation soapAction="http://tempuri.org/IClientes/Listargrupo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SalvarGrupo">
+      <soap:operation soapAction="http://tempuri.org/IClientes/SalvarGrupo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Deletetargrupo">
+      <soap:operation soapAction="http://tempuri.org/IClientes/Deletetargrupo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="BasicHttpBinding_IClientes" binding="tns:BasicHttpBinding_IClientes">
+      <soap:address location="http://www.sihlremoto.servicos.ws/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

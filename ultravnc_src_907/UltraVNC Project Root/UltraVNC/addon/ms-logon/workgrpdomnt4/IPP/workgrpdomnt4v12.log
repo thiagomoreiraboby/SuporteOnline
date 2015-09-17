@@ -1,0 +1,11 @@
+﻿Build started 02/06/2015 16:30:29.
+     1>Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\addon\ms-logon\workgrpdomnt4\workgrpdomnt4v12.vcxproj" on node 5 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D WORKGRPDOMNT4_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\..\..\Release/" /Fd".\..\..\Release/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt workgrpdomnt4.cpp
+         workgrpdomnt4.cpp
+     1>workgrpdomnt4.cpp : fatal error C1041: cannot open program database 'd:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\addon\release\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+     1>Done Building Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\addon\ms-logon\workgrpdomnt4\workgrpdomnt4v12.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.14

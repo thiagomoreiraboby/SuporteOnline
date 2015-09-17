@@ -1,0 +1,20 @@
+﻿Build started 02/06/2015 12:57:20.
+     1>Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\addon\ms-logon\ldapauth9x\ldapauth9xv12.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _WINDOWS /D LDAPAUTH9X_EXPORTS /D UNICODE /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ldapauth9x.cpp
+         ldapauth9x.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\addon\ms-logon\ldapauth9x\ldapauth9x.cpp(53): warning C4996: 'GetVersionExW': was declared deprecated
+                 c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(442) : see declaration of 'GetVersionExW'
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0813" /nologo /fo"Debug\ldapauth9x.res" ldapauth9x.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Debug\ldapauth9x.dll" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib activeds.lib adsiid.lib Netapi32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\ldapauth9x.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Debug\ldapauth9x.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Debug\ldapauth9x.lib" /MACHINE:X86 /SAFESEH /DLL Debug\ldapauth9x.res
+         Debug\ldapauth9x.obj
+     1>ldapauth9x.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+            Creating library D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Debug\ldapauth9x.lib and object D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Debug\ldapauth9x.exp
+         ldapauth9xv12.vcxproj -> D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Debug\ldapauth9x.dll
+     1>Done Building Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\addon\ms-logon\ldapauth9x\ldapauth9xv12.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.87

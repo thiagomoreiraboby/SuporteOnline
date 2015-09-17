@@ -1,0 +1,32 @@
+﻿@model IEnumerable<WebApplication1.Models.GrupCliente>
+
+@{
+    ViewBag.Title = "Grupos";
+}
+
+<h2>Grupos</h2>
+
+<p>
+    @Html.ActionLink("Novo", "Create") | @Html.ActionLink("Voltar", "Index", "Clientes")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.grcl_nome)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.grcl_nome)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id = item.grcl_codigo }) |
+            @Html.ActionLink("Deletar", "Delete", new { id=item.grcl_codigo })
+        </td>
+    </tr>
+}
+
+</table>

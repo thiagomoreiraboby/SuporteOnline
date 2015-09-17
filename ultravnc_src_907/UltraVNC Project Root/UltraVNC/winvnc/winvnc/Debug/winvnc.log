@@ -1,0 +1,211 @@
+﻿Build started 25/05/2015 08:36:13.
+     1>Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\winvnc\winvnc.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\winvnc.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\omnithread /I.. /I..\.. /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D __x86__ /D __WIN32__ /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x501 /D XMD_H /D _WINSTATIC /D _CRT_SECURE_NO_WARNINGS /D _VC80 /D _WIN32_IE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /FR".\..\Debug/" /Gd /TP /analyze- /errorReport:prompt ..\..\common\Clipboard.cpp benchmark.cpp black_layered.cpp blankmonitor.cpp buildtime.cpp CpuUsage.cpp ..\..\rfb\dh.cpp ..\..\DSMPlugin\DSMPlugin.cpp Dtwinver.cpp getinfo.cpp helpers.cpp HideDesktop.cpp httpconnect.cpp inifile.cpp initipp.cpp IPC.cpp read_write_ini.cpp rfbRegion_win32.cpp rfbRegion_X11.cxx rfbUpdateTracker.cpp security.cpp service.cpp service_motor.cpp stdhdrs.cpp TextChat.cpp translate.cpp uvncUiAccess.cpp videodriver.cpp videodrivercheck.cpp vistahook.cpp vncabout.cpp vncacceptdialog.cpp vncbuffer.cpp vncclient.cpp vncconndialog.cpp vncdesktop.cpp vncdesktopsink.cpp vncDesktopSW.cpp vncdesktopthread.cpp vncencodecorre.cpp vncencodehext.cpp vncencoder.cpp vncencoderCursor.cpp vncencoderre.cpp vncEncodeTight.cpp vncEncodeUltra.cpp vncEncodeUltra2.cpp vncEncodeZlib.cpp vncEncodeZlibHex.cpp vncencodezrle.cpp vnchttpconnect.cpp vncinsthandler.cpp vnckeymap.cpp vncListDlg.cpp vnclog.cpp vncmenu.cpp vncMultiMonitor.cpp vncntlm.cpp vncOSVersion.cpp vncproperties.cpp vncpropertiesPoll.cpp vncserver.cpp vncservice.cpp vncsetauth.cpp vncsockconnect.cpp vnctimedmsgbox.cpp vsocket.cpp ..\..\common\win32_helpers.cpp winvnc.cpp ..\..\ZipUnZip32\ZipUnzip32.cpp
+         ZipUnzip32.cpp
+         winvnc.cpp
+         win32_helpers.cpp
+         vsocket.cpp
+         vnctimedmsgbox.cpp
+         vncsockconnect.cpp
+         vncsetauth.cpp
+         vncservice.cpp
+         vncserver.cpp
+         vncpropertiesPoll.cpp
+         vncproperties.cpp
+         vncOSVersion.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncosversion.cpp(83): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncosversion.cpp(124): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncosversion.cpp(129): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncosversion.cpp(140): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+         vncntlm.cpp
+         vncMultiMonitor.cpp
+         vncmenu.cpp
+         vnclog.cpp
+         vncListDlg.cpp
+         vnckeymap.cpp
+         vncinsthandler.cpp
+         vnchttpconnect.cpp
+         Generating Code...
+         Compiling...
+         vncencodezrle.cpp
+         vncEncodeZlibHex.cpp
+         vncEncodeZlib.cpp
+         vncEncodeUltra2.cpp
+         vncEncodeUltra.cpp
+         vncEncodeTight.cpp
+         vncencoderre.cpp
+         vncencoderCursor.cpp
+         vncencoder.cpp
+         vncencodehext.cpp
+         vncencodecorre.cpp
+         vncdesktopthread.cpp
+         vncDesktopSW.cpp
+         vncdesktopsink.cpp
+         vncdesktop.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncdesktop.cpp(2501): warning C4805: '!=' : unsafe mix of type 'int' and type 'bool' in operation
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncdesktop.cpp(2501): warning C4805: '!=' : unsafe mix of type 'int' and type 'bool' in operation
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncdesktop.cpp(2511): warning C4805: '!=' : unsafe mix of type 'int' and type 'bool' in operation
+         vncconndialog.cpp
+         vncclient.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncclient.cpp(862): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncclient.cpp(4452): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncclient.cpp(4453): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncclient.cpp(4454): warning C4018: '>' : signed/unsigned mismatch
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncclient.cpp(4455): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2212) : see declaration of 'std::_Copy_impl'
+                 d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncclient.cpp(222) : see reference to function template instantiation '_OutIt std::copy<std::_String_iterator<_Elem,_Traits,_Alloc>,char*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=char *,
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>,
+                     _InIt=std::_String_iterator<char,std::char_traits<char>,std::allocator<char>>
+                 ]
+         vncbuffer.cpp
+         vncacceptdialog.cpp
+         vncabout.cpp
+         Generating Code...
+         Compiling...
+         vistahook.cpp
+         videodrivercheck.cpp
+         videodriver.cpp
+         uvncUiAccess.cpp
+         translate.cpp
+         TextChat.cpp
+         stdhdrs.cpp
+         service_motor.cpp
+         service.cpp
+         security.cpp
+         rfbUpdateTracker.cpp
+         rfbRegion_X11.cxx
+         rfbRegion_win32.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\rfbregion_win32.cpp(105): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+         read_write_ini.cpp
+         IPC.cpp
+         initipp.cpp
+         inifile.cpp
+         httpconnect.cpp
+         HideDesktop.cpp
+         helpers.cpp
+         Generating Code...
+         Compiling...
+         getinfo.cpp
+         Dtwinver.cpp
+         DSMPlugin.cpp
+         dh.cpp
+         CpuUsage.cpp
+         buildtime.cpp
+         blankmonitor.cpp
+         black_layered.cpp
+         benchmark.cpp
+         Clipboard.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\omnithread /I.. /I..\.. /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D __x86__ /D __WIN32__ /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x501 /D XMD_H /D _WINSTATIC /D _CRT_SECURE_NO_WARNINGS /D _VC80 /D _WIN32_IE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /FR".\..\Debug/" /Gd /TC /analyze- /errorReport:prompt d3des.c ..\..\lzo\minilzo.c vncauth.c
+         vncauth.c
+         minilzo.c
+         d3des.c
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /l"0x0809" /nologo /fo"Debug\winvnc.res" winvnc.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\winvnc.exe.embed.manifest.res" Debug\winvnc_manifest.rc 
+       PreLinkEvent:
+         cl /nologo /MTd /Fo..\Debug\ /Fd..\Debug\ /c buildtime.cpp
+         :VCEnd
+         buildtime.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Debug\winvnc.exe" /INCREMENTAL /NOLOGO ws2_32.lib winmm.lib version.lib wtsapi32.lib userenv.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\winvnc.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\..\Debug/winvnc.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /FIXED:NO /IMPLIB:"D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Debug\winvnc.lib" /MACHINE:X86 /PROFILE Debug\winvnc.res
+         Debug\winvnc.exe.embed.manifest.res
+         Debug\Clipboard.obj
+         Debug\benchmark.obj
+         Debug\black_layered.obj
+         Debug\blankmonitor.obj
+         Debug\buildtime.obj
+         Debug\CpuUsage.obj
+         Debug\d3des.obj
+         Debug\dh.obj
+         Debug\DSMPlugin.obj
+         Debug\Dtwinver.obj
+         Debug\getinfo.obj
+         Debug\helpers.obj
+         Debug\HideDesktop.obj
+         Debug\httpconnect.obj
+         Debug\inifile.obj
+         Debug\initipp.obj
+         Debug\IPC.obj
+         Debug\minilzo.obj
+         Debug\read_write_ini.obj
+         Debug\rfbRegion_win32.obj
+         Debug\rfbRegion_X11.obj
+         Debug\rfbUpdateTracker.obj
+         Debug\security.obj
+         Debug\service.obj
+         Debug\service_motor.obj
+         Debug\stdhdrs.obj
+         Debug\TextChat.obj
+         Debug\translate.obj
+         Debug\uvncUiAccess.obj
+         Debug\videodriver.obj
+         Debug\videodrivercheck.obj
+         Debug\vistahook.obj
+         Debug\vncabout.obj
+         Debug\vncacceptdialog.obj
+         Debug\vncauth.obj
+         Debug\vncbuffer.obj
+         Debug\vncclient.obj
+         Debug\vncconndialog.obj
+         Debug\vncdesktop.obj
+         Debug\vncdesktopsink.obj
+         Debug\vncDesktopSW.obj
+         Debug\vncdesktopthread.obj
+         Debug\vncencodecorre.obj
+         Debug\vncencodehext.obj
+         Debug\vncencoder.obj
+         Debug\vncencoderCursor.obj
+         Debug\vncencoderre.obj
+         Debug\vncEncodeTight.obj
+         Debug\vncEncodeUltra.obj
+         Debug\vncEncodeUltra2.obj
+         Debug\vncEncodeZlib.obj
+         Debug\vncEncodeZlibHex.obj
+         Debug\vncencodezrle.obj
+         Debug\vnchttpconnect.obj
+         Debug\vncinsthandler.obj
+         Debug\vnckeymap.obj
+         Debug\vncListDlg.obj
+         Debug\vnclog.obj
+         Debug\vncmenu.obj
+         Debug\vncMultiMonitor.obj
+         Debug\vncntlm.obj
+         Debug\vncOSVersion.obj
+         Debug\vncproperties.obj
+         Debug\vncpropertiesPoll.obj
+         Debug\vncserver.obj
+         Debug\vncservice.obj
+         Debug\vncsetauth.obj
+         Debug\vncsockconnect.obj
+         Debug\vnctimedmsgbox.obj
+         Debug\vsocket.obj
+         Debug\win32_helpers.obj
+         Debug\winvnc.obj
+         Debug\ZipUnzip32.obj
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Debug\avilog.lib"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Debug\rdr.lib"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Debug\unz32lib.lib"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Debug\zip32.lib"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\zlib-1.2.5\contrib\vstudio\vc10\x86\ZlibStatDebug\zlibstat.lib"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Debug\omnithread.lib"
+         "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\libjpeg-turbo-win-static.lib"
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/PROFILE' specification
+     1>Clipboard.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:REF' specification
+     1>LINK : fatal error LNK1181: cannot open input file 'D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\DebugLib-Static\libjpeg-turbo-win-static.lib'
+     1>Done Building Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\winvnc\winvnc.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:44.40

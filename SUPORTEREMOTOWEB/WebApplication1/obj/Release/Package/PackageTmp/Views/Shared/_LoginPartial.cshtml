@@ -1,0 +1,25 @@
+﻿@using WebApplication1.Controllers
+
+
+@{
+    ViewBag.Title = "Login";
+}
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Autenticacao", new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                    @Html.ActionLink("Bem vindo " + HttpContext.Current.User.Identity.Name + " | LogOff", "LogOff", "Autenticacao")
+            </li>
+        </ul>
+    }
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li>@Html.ActionLink("Login", "LogOn", "Autenticacao")</li>
+    </ul>
+}

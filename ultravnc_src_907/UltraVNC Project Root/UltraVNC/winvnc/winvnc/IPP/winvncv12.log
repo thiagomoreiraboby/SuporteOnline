@@ -1,0 +1,167 @@
+﻿Build started 02/06/2015 16:30:27.
+     1>Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\winvnc\winvncv12.vcxproj" on node 3 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\omnithread /I.. /I..\.. /Zi /nologo /W3 /WX- /Ox /Ob2 /Oi /Ot /Oy- /GT /GL /D NDEBUG /D __x86__ /D __WIN32__ /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x501 /D XMD_H /D _WINSTATIC /D _VC80 /D _CRT_SECURE_NO_WARNINGS /D IPP /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\..\Release/" /Fd".\..\Release/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\common\Clipboard.cpp benchmark.cpp black_layered.cpp blankmonitor.cpp buildtime.cpp CpuUsage.cpp ..\..\rfb\dh.cpp ..\..\DSMPlugin\DSMPlugin.cpp Dtwinver.cpp getinfo.cpp helpers.cpp HideDesktop.cpp httpconnect.cpp inifile.cpp initipp.cpp IPC.cpp read_write_ini.cpp rfbRegion_win32.cpp rfbRegion_X11.cxx rfbUpdateTracker.cpp security.cpp service.cpp service_motor.cpp stdhdrs.cpp TextChat.cpp translate.cpp uvncUiAccess.cpp videodriver.cpp videodrivercheck.cpp vistahook.cpp vncabout.cpp vncacceptdialog.cpp vncbuffer.cpp vncclient.cpp vncconndialog.cpp vncdesktop.cpp vncdesktopsink.cpp vncDesktopSW.cpp vncdesktopthread.cpp vncencodecorre.cpp vncencodehext.cpp vncencoder.cpp vncencoderCursor.cpp vncencoderre.cpp vncEncodeTight.cpp vncEncodeUltra.cpp vncEncodeUltra2.cpp vncEncodeZlib.cpp vncEncodeZlibHex.cpp vncencodezrle.cpp vnchttpconnect.cpp vncinsthandler.cpp vnckeymap.cpp vncListDlg.cpp vnclog.cpp vncmenu.cpp vncMultiMonitor.cpp vncntlm.cpp vncOSVersion.cpp vncproperties.cpp vncpropertiesPoll.cpp vncserver.cpp vncservice.cpp vncsetauth.cpp vncsockconnect.cpp vnctimedmsgbox.cpp vsocket.cpp ..\..\common\win32_helpers.cpp winvnc.cpp ..\..\ZipUnZip32\ZipUnzip32.cpp
+         Clipboard.cpp
+     1>..\..\common\Clipboard.cpp(45): fatal error C1083: Cannot open include file: '..\..\ipp_zlib\src\zlib\zlib.h': No such file or directory
+         benchmark.cpp
+         black_layered.cpp
+         blankmonitor.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncEncodeZlib.h(41): fatal error C1083: Cannot open include file: '..\..\ipp_zlib\src\zlib\zlib.h': No such file or directory
+         buildtime.cpp
+         CpuUsage.cpp
+         dh.cpp
+         DSMPlugin.cpp
+         Dtwinver.cpp
+     1>Dtwinver.cpp(846): warning C4996: 'GetVersion': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110) : see declaration of 'GetVersion'
+         getinfo.cpp
+         helpers.cpp
+         HideDesktop.cpp
+         httpconnect.cpp
+     1>httpconnect.cpp(201): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1850) : see declaration of 'inet_addr'
+     1>httpconnect.cpp(282): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1868) : see declaration of 'inet_ntoa'
+     1>httpconnect.cpp(497): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1868) : see declaration of 'inet_ntoa'
+     1>httpconnect.cpp(498): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1868) : see declaration of 'inet_ntoa'
+     1>httpconnect.cpp(619): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1850) : see declaration of 'inet_addr'
+     1>httpconnect.cpp(621): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2238) : see declaration of 'gethostbyname'
+         inifile.cpp
+         initipp.cpp
+     1>initipp.cpp(25): fatal error C1083: Cannot open include file: 'ippcore.h': No such file or directory
+         IPC.cpp
+         read_write_ini.cpp
+         rfbRegion_win32.cpp
+     1>rfbRegion_win32.cpp(105): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+         rfbRegion_X11.cxx
+         rfbUpdateTracker.cpp
+         Compiling...
+         security.cpp
+         service.cpp
+     1>service.cpp(311): warning C4996: 'GetVersionExA': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433) : see declaration of 'GetVersionExA'
+         service_motor.cpp
+     1>service_motor.cpp(52): warning C4996: 'GetVersionExA': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433) : see declaration of 'GetVersionExA'
+     1>service_motor.cpp(349): warning C4552: '>' : operator has no effect; expected operator with side-effect
+     1>service_motor.cpp(379): warning C4996: 'GetVersionExA': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433) : see declaration of 'GetVersionExA'
+     1>service_motor.cpp(537): warning C4996: 'GetVersionExA': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433) : see declaration of 'GetVersionExA'
+     1>service_motor.cpp(620): warning C4996: 'GetVersionExA': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433) : see declaration of 'GetVersionExA'
+     1>service_motor.cpp(759): warning C4996: 'GetVersionExA': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433) : see declaration of 'GetVersionExA'
+     1>service_motor.cpp(780): warning C4996: 'GetVersionExA': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433) : see declaration of 'GetVersionExA'
+     1>service_motor.cpp(879): warning C4996: 'GetVersionExA': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433) : see declaration of 'GetVersionExA'
+     1>service_motor.cpp(901): warning C4996: 'GetVersionExA': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433) : see declaration of 'GetVersionExA'
+         stdhdrs.cpp
+         TextChat.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncEncodeZlib.h(41): fatal error C1083: Cannot open include file: '..\..\ipp_zlib\src\zlib\zlib.h': No such file or directory
+         translate.cpp
+         uvncUiAccess.cpp
+         videodriver.cpp
+     1>videodriver.cpp(869): warning C4996: 'GetVersionExA': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433) : see declaration of 'GetVersionExA'
+     1>videodriver.cpp(872): warning C4996: 'GetVersionExA': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433) : see declaration of 'GetVersionExA'
+         videodrivercheck.cpp
+         vistahook.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncEncodeZlib.h(41): fatal error C1083: Cannot open include file: '..\..\ipp_zlib\src\zlib\zlib.h': No such file or directory
+         vncabout.cpp
+         vncacceptdialog.cpp
+         vncbuffer.cpp
+         vncclient.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncEncodeZlib.h(41): fatal error C1083: Cannot open include file: '..\..\ipp_zlib\src\zlib\zlib.h': No such file or directory
+         vncconndialog.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncEncodeZlib.h(41): fatal error C1083: Cannot open include file: '..\..\ipp_zlib\src\zlib\zlib.h': No such file or directory
+         vncdesktop.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncEncodeZlib.h(41): fatal error C1083: Cannot open include file: '..\..\ipp_zlib\src\zlib\zlib.h': No such file or directory
+         vncdesktopsink.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncEncodeZlib.h(41): fatal error C1083: Cannot open include file: '..\..\ipp_zlib\src\zlib\zlib.h': No such file or directory
+         vncDesktopSW.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncEncodeZlib.h(41): fatal error C1083: Cannot open include file: '..\..\ipp_zlib\src\zlib\zlib.h': No such file or directory
+         vncdesktopthread.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncEncodeZlib.h(41): fatal error C1083: Cannot open include file: '..\..\ipp_zlib\src\zlib\zlib.h': No such file or directory
+         vncencodecorre.cpp
+         Compiling...
+         vncencodehext.cpp
+         vncencoder.cpp
+         vncencoderCursor.cpp
+         vncencoderre.cpp
+         vncEncodeTight.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncEncodeTight.h(40): fatal error C1083: Cannot open include file: '..\..\ipp_zlib\src\zlib\zlib.h': No such file or directory
+         vncEncodeUltra.cpp
+         vncEncodeUltra2.cpp
+         vncEncodeZlib.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncEncodeZlib.h(41): fatal error C1083: Cannot open include file: '..\..\ipp_zlib\src\zlib\zlib.h': No such file or directory
+         vncEncodeZlibHex.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncEncodeZlibHex.h(46): fatal error C1083: Cannot open include file: '..\..\ipp_zlib\src\zlib\zlib.h': No such file or directory
+         vncencodezrle.cpp
+         vnchttpconnect.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncEncodeZlib.h(41): fatal error C1083: Cannot open include file: '..\..\ipp_zlib\src\zlib\zlib.h': No such file or directory
+         vncinsthandler.cpp
+         vnckeymap.cpp
+         vncListDlg.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncEncodeZlib.h(41): fatal error C1083: Cannot open include file: '..\..\ipp_zlib\src\zlib\zlib.h': No such file or directory
+         vnclog.cpp
+         vncmenu.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncEncodeZlib.h(41): fatal error C1083: Cannot open include file: '..\..\ipp_zlib\src\zlib\zlib.h': No such file or directory
+         vncMultiMonitor.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncEncodeZlib.h(41): fatal error C1083: Cannot open include file: '..\..\ipp_zlib\src\zlib\zlib.h': No such file or directory
+         vncntlm.cpp
+     1>vncntlm.cpp(528): warning C4996: 'GetVersionExA': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433) : see declaration of 'GetVersionExA'
+         vncOSVersion.cpp
+     1>vncOSVersion.cpp(45): warning C4996: 'GetVersionExA': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433) : see declaration of 'GetVersionExA'
+     1>vncOSVersion.cpp(83): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>vncOSVersion.cpp(124): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>vncOSVersion.cpp(129): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>vncOSVersion.cpp(140): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+         vncproperties.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncEncodeZlib.h(41): fatal error C1083: Cannot open include file: '..\..\ipp_zlib\src\zlib\zlib.h': No such file or directory
+         Compiling...
+         vncpropertiesPoll.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncEncodeZlib.h(41): fatal error C1083: Cannot open include file: '..\..\ipp_zlib\src\zlib\zlib.h': No such file or directory
+         vncserver.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncEncodeZlib.h(41): fatal error C1083: Cannot open include file: '..\..\ipp_zlib\src\zlib\zlib.h': No such file or directory
+         vncservice.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncEncodeZlib.h(41): fatal error C1083: Cannot open include file: '..\..\ipp_zlib\src\zlib\zlib.h': No such file or directory
+         vncsetauth.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncEncodeZlib.h(41): fatal error C1083: Cannot open include file: '..\..\ipp_zlib\src\zlib\zlib.h': No such file or directory
+         vncsockconnect.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncEncodeZlib.h(41): fatal error C1083: Cannot open include file: '..\..\ipp_zlib\src\zlib\zlib.h': No such file or directory
+         vnctimedmsgbox.cpp
+         vsocket.cpp
+     1>vsocket.cpp(298): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1850) : see declaration of 'inet_addr'
+     1>vsocket.cpp(305): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2238) : see declaration of 'gethostbyname'
+     1>vsocket.cpp(400): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1868) : see declaration of 'inet_ntoa'
+     1>vsocket.cpp(421): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1868) : see declaration of 'inet_ntoa'
+     1>vsocket.cpp(442): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1868) : see declaration of 'inet_ntoa'
+     1>vsocket.cpp(454): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1850) : see declaration of 'inet_addr'
+     1>vsocket.cpp(461): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2238) : see declaration of 'gethostbyname'
+         win32_helpers.cpp
+         winvnc.cpp
+     1>d:\vncsihl\ultravnc_src_907\ultravnc project root\ultravnc\winvnc\winvnc\vncEncodeZlib.h(41): fatal error C1083: Cannot open include file: '..\..\ipp_zlib\src\zlib\zlib.h': No such file or directory
+         ZipUnzip32.cpp
+     1>Done Building Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\winvnc\winvncv12.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:27.08

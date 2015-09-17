@@ -1,0 +1,84 @@
+﻿Build started 02/06/2015 16:30:29.
+     1>Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\uvnc_settings\uvnc_settings\uvnc_settingsv12.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MT /GS /Qpar /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\uvnc_settings.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MT /GS /Qpar /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\uvnc_settings.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt capture.cpp connections.cpp createsfx.cpp createsfx2.cpp createsfx3.cpp dsmplugin.cpp filetransfer.cpp firewall.cpp inifile.cpp log.cpp misc.cpp network.cpp security.cpp upnp.cpp uvnc_settings.cpp videodrivercheck.cpp vncOSVersion.cpp vncsetauth.cpp
+         capture.cpp
+         connections.cpp
+     1>connections.cpp(108): warning C4800: 'LRESULT' : forcing value to bool 'true' or 'false' (performance warning)
+         createsfx.cpp
+     1>createsfx.cpp(291): warning C4800: 'LRESULT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>createsfx.cpp(309): warning C4800: 'LRESULT' : forcing value to bool 'true' or 'false' (performance warning)
+         createsfx2.cpp
+     1>createsfx2.cpp(277): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         createsfx3.cpp
+     1>createsfx3.cpp(129): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>createsfx3.cpp(139): warning C4244: '=' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>createsfx3.cpp(149): warning C4244: '=' : conversion from 'std::streamoff' to 'int', possible loss of data
+         dsmplugin.cpp
+         filetransfer.cpp
+         firewall.cpp
+         inifile.cpp
+         log.cpp
+         misc.cpp
+     1>misc.cpp(130): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>misc.cpp(131): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>misc.cpp(132): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>misc.cpp(144): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>misc.cpp(145): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>misc.cpp(146): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>misc.cpp(159): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>misc.cpp(160): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>misc.cpp(161): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>misc.cpp(173): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>misc.cpp(174): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>misc.cpp(175): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+         network.cpp
+     1>network.cpp(125): warning C4244: 'argument' : conversion from 'LONG' to 'const short', possible loss of data
+     1>network.cpp(167): warning C4244: 'argument' : conversion from 'LONG' to 'const short', possible loss of data
+         security.cpp
+         upnp.cpp
+         uvnc_settings.cpp
+         videodrivercheck.cpp
+         vncOSVersion.cpp
+     1>vncOSVersion.cpp(35): warning C4996: 'GetVersionExA': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433) : see declaration of 'GetVersionExA'
+         vncsetauth.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Release\uvnc_settings.res" uvnc_settings.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Release\uvnc_settings.exe" /INCREMENTAL:NO /NOLOGO comctl32.lib version.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Release\uvnc_settings.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Release\uvnc_settings.lib" /MACHINE:X86 /SAFESEH Release\uvnc_settings.res
+         Release\capture.obj
+         Release\connections.obj
+         Release\createsfx.obj
+         Release\createsfx2.obj
+         Release\createsfx3.obj
+         Release\dsmplugin.obj
+         Release\filetransfer.obj
+         Release\firewall.obj
+         Release\inifile.obj
+         Release\log.obj
+         Release\misc.obj
+         Release\network.obj
+         Release\security.obj
+         Release\stdafx.obj
+         Release\upnp.obj
+         Release\uvnc_settings.obj
+         Release\videodrivercheck.obj
+         Release\vncOSVersion.obj
+         Release\vncsetauth.obj
+         Generating code
+         Finished generating code
+         uvnc_settingsv12.vcxproj -> D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Release\uvnc_settings.exe
+       PostBuildEvent:
+         signtool.exe sign /a  /n "uvnc bvba" /v /t http://timestamp.verisign.com/scripts/timstamp.dll "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Release\uvnc_settings.exe"
+         :VCEnd
+     1>EXEC : SignTool error : No certificates were found that met all the given criteria.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: The command "signtool.exe sign /a  /n "uvnc bvba" /v /t http://timestamp.verisign.com/scripts/timstamp.dll "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Release\uvnc_settings.exe"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(132,5): error MSB3073: :VCEnd" exited with code 1.
+     1>Done Building Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\uvnc_settings\uvnc_settings\uvnc_settingsv12.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.08

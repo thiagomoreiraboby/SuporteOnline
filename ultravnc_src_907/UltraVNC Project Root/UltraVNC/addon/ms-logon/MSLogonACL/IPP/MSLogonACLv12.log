@@ -1,0 +1,26 @@
+﻿Build started 02/06/2015 16:30:27.
+     1>Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\addon\ms-logon\MSLogonACL\MSLogonACLv12.vcxproj" on node 4 (Rebuild target(s)).
+     1>CustomBuild:
+         Create Buildtime for VERSIONINFO
+         buildtime.in
+                 1 arquivo(s) movido(s).
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D UNICODE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\..\..\Release/" /Fd".\..\..\Release/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MSLogonACL.cpp vncExportACL.cpp vncImportACL.cpp
+         MSLogonACL.cpp
+         vncExportACL.cpp
+         vncImportACL.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0407" /nologo /fo"IPP\MSLogonACL.res" MSLogonACL.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\addon\ms-logon\MSLogonACL\IPP\MSLogonACL.exe) does not match the Linker's OutputFile property value (D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\addon\Release\MSLogonACL.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\..\..\Release/MSLogonACL.exe" /INCREMENTAL:NO /NOLOGO odbc32.lib odbccp32.lib netapi32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\..\..\Release/MSLogonACL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"IPP\MSLogonACL.lib" /MACHINE:X86 /SAFESEH IPP\MSLogonACL.res
+         .\..\..\Release/MSLogonACL.obj
+         .\..\..\Release/vncExportACL.obj
+         .\..\..\Release/vncImportACL.obj
+         MSLogonACLv12.vcxproj -> D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\addon\ms-logon\MSLogonACL\IPP\MSLogonACL.exe
+     1>Done Building Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\addon\ms-logon\MSLogonACL\MSLogonACLv12.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.95

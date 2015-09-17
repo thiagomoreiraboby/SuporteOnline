@@ -1,0 +1,129 @@
+﻿<Window x:Class="Suporte_SIHL.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Suporte Sihl" Height="500" Width="600" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="25"/>
+        </Grid.RowDefinitions>
+        <TabControl Name="TabControl1">
+            <TabItem Name="tablogar" Visibility="{Binding Logar, Mode=TwoWay}" Header="Logar" Background="{x:Null}">
+                <Grid>
+                    <TextBlock HorizontalAlignment="Left" Margin="5,4,0,0" TextWrapping="Wrap" Text="Usuário" VerticalAlignment="Top"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="5,53,0,0" TextWrapping="Wrap" Text="Senha" VerticalAlignment="Top"/>
+                    <TextBox Name="txtlogin" HorizontalAlignment="Left" Height="23" Margin="5,25,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="223"/>
+                    <PasswordBox Name="txtsenha" HorizontalAlignment="Left" Height="23" Margin="5,74,0,0" VerticalAlignment="Top" Width="223"/>
+                    <Button Height="25" Width="50" Content="Entrar" Margin="178,102,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="entrar_click" Background="{x:Null}"/>
+                </Grid>
+            </TabItem>
+            <TabItem Name="Tabcliente" Visibility="{Binding Logado, Mode=TwoWay}" Header="Clientes" Background="{x:Null}">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Button Content="Atualizar" Click="ButtonBase_OnClick" Background="{x:Null}"/>
+                    <DataGrid Name="dgcliente" Grid.Row="1" ItemsSource="{Binding Clientes}" SelectedItem="{Binding Cliente, Mode=TwoWay}" IsReadOnly="True" AutoGenerateColumns="False"
+                  LoadingRow="DataGrid_LoadingRow" FontSize="15" HeadersVisibility="None" HorizontalGridLinesBrush="{x:Null}" VerticalGridLinesBrush="{x:Null}" GridLinesVisibility="None">
+                        <DataGrid.GroupStyle>
+                            <GroupStyle>
+                                <GroupStyle.ContainerStyle>
+                                    <Style TargetType="{x:Type GroupItem}">
+                                        <Setter Property="Template">
+                                            <Setter.Value>
+                                                <ControlTemplate TargetType="{x:Type GroupItem}">
+                                                    <Expander BorderBrush="Black" BorderThickness="1" IsExpanded="{Binding ElementName=CheckBox1, Path=IsChecked}">
+                                                        <Expander.Background>
+                                                            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                                                                <GradientStop Color="#FF93ACD8" Offset="0.010"/>
+                                                                <GradientStop Color="#FF93ACD8" Offset="0.010"/>
+                                                            </LinearGradientBrush>
+
+                                                        </Expander.Background>
+                                                        <Expander.Header>
+                                                            <StackPanel Orientation="Horizontal">
+                                                                <TextBlock Text="{Binding Path=Name}" FontSize="15" FontWeight="Bold" Foreground="White"/>
+                                                            </StackPanel>
+                                                        </Expander.Header>
+                                                        <ItemsPresenter />
+                                                    </Expander>
+                                                </ControlTemplate>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Style>
+                                </GroupStyle.ContainerStyle>
+                            </GroupStyle>
+                        </DataGrid.GroupStyle>
+                        <DataGrid.Resources>
+                            <Style TargetType="DataGridRow">
+                                <Style.Resources>
+                                    <LinearGradientBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                                        <GradientStop Color="#FF8D8D8D" Offset="0.008"/>
+                                        <GradientStop Color="#FF8D8D8D" Offset="0.008"/>
+                                    </LinearGradientBrush>
+
+                                </Style.Resources>
+                            </Style>
+                        </DataGrid.Resources>
+                        <DataGrid.Columns>
+                            <DataGridTemplateColumn>
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Button Height="Auto" Width="Auto" Click="ButtonBase_OnClickconectar" Background="{x:Null}" BorderBrush="{x:Null}">
+                                            <Button.Content>
+                                                <Image Source="icone-conexao.jpg" Height="20" Width="20"></Image>
+                                            </Button.Content>
+                                        </Button>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <!--DataGridTextColumn Header="ID" Binding="{Binding clie_idvnc}" Width="Auto"/-->
+                            <DataGridTextColumn Header="Nome" Binding="{Binding clie_nome}" Width="Auto"/>
+                            <DataGridTextColumn Header="Ultimo usuário Logado" Binding="{Binding usua_nome}" Width="Auto"/>
+
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                </Grid>
+            </TabItem>
+            <TabItem Name="Tabedcliente" Visibility="{Binding Logado, Mode=TwoWay}" Header="Editar Cliente" Background="{x:Null}">
+                <Grid>
+                    <TextBox Text="{Binding Cliente.clie_nome, Mode=TwoWay}" Height="25" Width="300" VerticalAlignment="Top" HorizontalAlignment="Left" MaxLength="200" Margin="50,2,0,0"/>
+                    <TextBox Text="{Binding Cliente.clie_obs, Mode=TwoWay}" Height="190" Width="300" VerticalAlignment="Top" HorizontalAlignment="Left" MaxLength="200" Margin="50,63,0,0" AcceptsReturn="True" AcceptsTab="True"/>
+                    <ComboBox Name="ComboBox1" ItemsSource="{Binding Grupos}" SelectedItem="{Binding Cliente.grcl_codigo, Mode=TwoWay}" SelectedValue="{Binding Cliente.grcl_codigo.grcl_codigo, Mode=TwoWay}" DisplayMemberPath="grcl_nome" SelectedValuePath="grcl_codigo" Height="25" Width="300" Margin="50,32,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"  />
+                    <Button Height="25" Width="50" Content="Salvar" Margin="250,256,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="alterarnomecliente"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="11,2,0,0" TextWrapping="Wrap" Text="Nome:" VerticalAlignment="Top"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,32,0,0" TextWrapping="Wrap" Text="Grupo:" VerticalAlignment="Top"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="21,134,0,0" TextWrapping="Wrap" Text="OBS:" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+            <TabItem  Name="Tabgrupo" Visibility="{Binding Logado, Mode=TwoWay}" Header="Editar Grupo" Background="{x:Null}">
+                <Grid>
+                    <TextBox Text="{Binding Grupo.grcl_nome, Mode=TwoWay}" Height="25" Width="300" VerticalAlignment="Top" HorizontalAlignment="Left" MaxLength="200" Margin="50,2,0,0"/>
+                    <DataGrid Name="dggrupos" ItemsSource="{Binding Grupos}" IsReadOnly="True" AutoGenerateColumns="False"
+                   FontSize="15" Margin="0,32,0,0">
+                        <DataGrid.Columns>
+                            <DataGridTemplateColumn>
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Button Content="Deletar" Height="Auto" Width="Auto" Click="deletargrupo"  Background="{x:Null}" BorderBrush="{x:Null}"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTextColumn Header="Nome" Binding="{Binding grcl_nome}" Width="Auto"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                    <Button Height="25" Width="50" Content="Salvar" Margin="355,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="addgrupos"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="11,2,0,0" TextWrapping="Wrap" Text="Nome:" VerticalAlignment="Top"/>
+
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <TextBlock Margin="5,0,0,0" Name="txtusuario" />
+            <CheckBox Name="CheckBox1" Margin="5,0,0,0" Content="Abrir Grupos" IsChecked="False" Checked="checkabrirgrupos"/>
+        </StackPanel>
+    </Grid>
+</Window>

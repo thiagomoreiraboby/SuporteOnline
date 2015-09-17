@@ -1,0 +1,19 @@
+﻿Build started 02/06/2015 12:57:11.
+     1>Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\vnchooks\vnchooksv12.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D __WIN32__ /D WIN32 /D _WINDOWS /D _USRDLL /D VNCHOOKS_EXPORTS /D _WIN32_WINNT=0x400 /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt VNCHooks.cpp
+         VNCHooks.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /l"0x0809" /nologo /fo"Debug\VNCHooks.res" VNCHooks.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Debug\vnchooks.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\VNCHooks.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Debug\vnchooks.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Debug\vnchooks.lib" /MACHINE:X86 /PROFILE /SAFESEH /DLL Debug\VNCHooks.res
+         Debug\VNCHooks.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/PROFILE' specification
+     1>VNCHooks.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+            Creating library D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Debug\vnchooks.lib and object D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Debug\vnchooks.exp
+         vnchooksv12.vcxproj -> D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\Debug\vnchooks.dll
+     1>Done Building Project "D:\vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\winvnc\vnchooks\vnchooksv12.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.31

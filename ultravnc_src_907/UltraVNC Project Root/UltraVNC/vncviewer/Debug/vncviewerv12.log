@@ -1,0 +1,160 @@
+﻿Build started 06/07/2015 12:56:51.
+     1>Project "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\vncviewerv12.vcxproj" on node 2 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (vncviewer.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I./omnithread /I.. /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _WINDOWS /D __NT__ /D _WINSTATIC /D __WIN32__ /D _CRT_SECURE_NO_WARNINGS /D _VIEWER /Gm /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdhdrs.h" /Fp"Debug\sihlviewer.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt stdhdrs.cpp
+         stdhdrs.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I./omnithread /I.. /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _WINDOWS /D __NT__ /D _WINSTATIC /D __WIN32__ /D _CRT_SECURE_NO_WARNINGS /D _VIEWER /Gm /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt AboutBox.cpp AccelKeys.cpp AuthDialog.cpp buildtime.cpp ClientConnection.cpp ClientConnectionCacheRect.cpp ClientConnectionClipboard.cpp ClientConnectionCopyRect.cpp ClientConnectionCoRRE.cpp ClientConnectionCursor.cpp ClientConnectionFile.cpp ClientConnectionFullScreen.cpp ClientConnectionHextile.cpp ClientConnectionRaw.cpp ClientConnectionRRE.cpp ClientConnectionTight.cpp ClientConnectionUltra.cpp ClientConnectionUltra2.cpp ClientConnectionZlib.cpp ClientConnectionZlibHex.cpp ..\common\Clipboard.cpp Daemon.cpp ..\rfb\dh.cpp ..\DSMPlugin\DSMPlugin.cpp directx\directxviewer.cpp display.cpp Exception.cpp FileTransfer.cpp FullScreenTitleBar.cpp KeyMap.cpp KeyMapjap.cpp Log.cpp LowLevelHook.cpp MessBox2.cpp MRU.cpp SessionDialog.cpp TextChat.cpp VNCOptions.cpp vncviewer.cpp VNCviewerApp.cpp VNCviewerApp32.cpp ..\common\win32_helpers.cpp ..\ZipUnZip32\ZipUnzip32.cpp zrle.cpp
+         zrle.cpp
+         ZipUnzip32.cpp
+         win32_helpers.cpp
+         VNCviewerApp32.cpp
+         VNCviewerApp.cpp
+         vncviewer.cpp
+     1>vncviewer.cpp(374): warning C4996: 'GetVersionExA': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433) : see declaration of 'GetVersionExA'
+         VNCOptions.cpp
+     1>VNCOptions.cpp(1642): warning C4101: 'huser' : unreferenced local variable
+     1>VNCOptions.cpp(1640): warning C4101: 'dw' : unreferenced local variable
+         TextChat.cpp
+         SessionDialog.cpp
+         MRU.cpp
+     1>MRU.cpp(41): warning C4101: 'dispos' : unreferenced local variable
+     1>MRU.cpp(148): warning C4101: 'valtype' : unreferenced local variable
+     1>MRU.cpp(221): warning C4101: 'valtype' : unreferenced local variable
+         MessBox2.cpp
+         LowLevelHook.cpp
+         Log.cpp
+         KeyMapjap.cpp
+         KeyMap.cpp
+         FullScreenTitleBar.cpp
+         FileTransfer.cpp
+         Exception.cpp
+         display.cpp
+         directxviewer.cpp
+         Generating Code...
+         Compiling...
+         DSMPlugin.cpp
+         dh.cpp
+         Daemon.cpp
+     1>Daemon.cpp(116): warning C4996: 'WSAAsyncSelect': Use WSAEventSelect() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2699) : see declaration of 'WSAAsyncSelect'
+     1>Daemon.cpp(203): warning C4996: 'WSAAsyncSelect': Use WSAEventSelect() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2699) : see declaration of 'WSAAsyncSelect'
+         Clipboard.cpp
+         ClientConnectionZlibHex.cpp
+         ClientConnectionZlib.cpp
+         ClientConnectionUltra2.cpp
+         ClientConnectionUltra.cpp
+         ClientConnectionTight.cpp
+         ClientConnectionRRE.cpp
+         ClientConnectionRaw.cpp
+         ClientConnectionHextile.cpp
+         ClientConnectionFullScreen.cpp
+         ClientConnectionFile.cpp
+         ClientConnectionCursor.cpp
+         ClientConnectionCoRRE.cpp
+         ClientConnectionCopyRect.cpp
+         ClientConnectionClipboard.cpp
+         ClientConnectionCacheRect.cpp
+         ClientConnection.cpp
+         TODO - Localize these new menu strings!
+     1>ClientConnection.cpp(1796): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1850) : see declaration of 'inet_addr'
+     1>ClientConnection.cpp(1801): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2238) : see declaration of 'gethostbyname'
+     1>ClientConnection.cpp(1858): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1850) : see declaration of 'inet_addr'
+     1>ClientConnection.cpp(1863): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2238) : see declaration of 'gethostbyname'
+     1>ClientConnection.cpp(2591): warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+     1>ClientConnection.cpp(2592): warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+     1>ClientConnection.cpp(5197): warning C4018: '>' : signed/unsigned mismatch
+     1>ClientConnection.cpp(5833): warning C4018: '<' : signed/unsigned mismatch
+     1>ClientConnection.cpp(6471): warning C4244: 'argument' : conversion from '__int64' to 'UINT', possible loss of data
+     1>ClientConnection.cpp(6472): warning C4244: 'argument' : conversion from '__int64' to 'UINT', possible loss of data
+         Generating Code...
+         Compiling...
+         buildtime.cpp
+         AuthDialog.cpp
+     1>AuthDialog.cpp(56): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(937) : see declaration of 'itoa'
+         AccelKeys.cpp
+         AboutBox.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I./omnithread /I.. /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _WINDOWS /D __NT__ /D _WINSTATIC /D __WIN32__ /D _CRT_SECURE_NO_WARNINGS /D _VIEWER /Gm /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /FR"Debug\\" /Gd /TC /analyze- /errorReport:prompt d3des.c ..\lzo\minilzo.c vncauth.c
+         vncauth.c
+         minilzo.c
+         d3des.c
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /l"0x0409" /Ires /nologo /fo"Debug\vncviewer.res" res\vncviewer.rc 
+       PreLinkEvent:
+         cl /nologo /MTd /FoDebug\ /FdDebug\ /c buildtime.cpp
+         :VCEnd
+         buildtime.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Debug\sihlviewer.exe" /INCREMENTAL /NOLOGO comctl32.lib winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Debug\sihlviewer.pdb" /MAP /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /FIXED:NO /IMPLIB:"D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Debug\sihlviewer.lib" /MACHINE:X86 /SAFESEH Debug\vncviewer.res
+         Debug\AboutBox.obj
+         Debug\AccelKeys.obj
+         Debug\AuthDialog.obj
+         Debug\buildtime.obj
+         Debug\ClientConnection.obj
+         Debug\ClientConnectionCacheRect.obj
+         Debug\ClientConnectionClipboard.obj
+         Debug\ClientConnectionCopyRect.obj
+         Debug\ClientConnectionCoRRE.obj
+         Debug\ClientConnectionCursor.obj
+         Debug\ClientConnectionFile.obj
+         Debug\ClientConnectionFullScreen.obj
+         Debug\ClientConnectionHextile.obj
+         Debug\ClientConnectionRaw.obj
+         Debug\ClientConnectionRRE.obj
+         Debug\ClientConnectionTight.obj
+         Debug\ClientConnectionUltra.obj
+         Debug\ClientConnectionUltra2.obj
+         Debug\ClientConnectionZlib.obj
+         Debug\ClientConnectionZlibHex.obj
+         Debug\Clipboard.obj
+         Debug\d3des.obj
+         Debug\Daemon.obj
+         Debug\dh.obj
+         Debug\DSMPlugin.obj
+         Debug\directxviewer.obj
+         Debug\display.obj
+         Debug\Exception.obj
+         Debug\FileTransfer.obj
+         Debug\FullScreenTitleBar.obj
+         Debug\KeyMap.obj
+         Debug\KeyMapjap.obj
+         Debug\Log.obj
+         Debug\LowLevelHook.obj
+         Debug\MessBox2.obj
+         Debug\minilzo.obj
+         Debug\MRU.obj
+         Debug\SessionDialog.obj
+         Debug\stdhdrs.obj
+         Debug\TextChat.obj
+         Debug\vncauth.obj
+         Debug\VNCOptions.obj
+         Debug\vncviewer.obj
+         Debug\VNCviewerApp.obj
+         Debug\VNCviewerApp32.obj
+         Debug\win32_helpers.obj
+         Debug\ZipUnzip32.obj
+         Debug\zrle.obj
+         "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\DebugDll\libjpeg-turbo-win.lib"
+         "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Debug\rdr.lib"
+         "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Debug\unz32lib.lib"
+         "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Debug\zip32.lib"
+         "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\zlib-1.2.5\contrib\vstudio\vc10\x86\ZlibStatDebug\zlibstat.lib"
+         "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Debug\omnithread.lib"
+     1>rdr.lib(FdInStream.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         vncviewerv12.vcxproj -> D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\Debug\sihlviewer.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\Debug/vncviewer.bsc" Debug\AboutBox.sbr Debug\AccelKeys.sbr Debug\AuthDialog.sbr Debug\buildtime.sbr Debug\ClientConnection.sbr Debug\ClientConnectionCacheRect.sbr Debug\ClientConnectionClipboard.sbr Debug\ClientConnectionCopyRect.sbr Debug\ClientConnectionCoRRE.sbr Debug\ClientConnectionCursor.sbr Debug\ClientConnectionFile.sbr Debug\ClientConnectionFullScreen.sbr Debug\ClientConnectionHextile.sbr Debug\ClientConnectionRaw.sbr Debug\ClientConnectionRRE.sbr Debug\ClientConnectionTight.sbr Debug\ClientConnectionUltra.sbr Debug\ClientConnectionUltra2.sbr Debug\ClientConnectionZlib.sbr Debug\ClientConnectionZlibHex.sbr Debug\Clipboard.sbr Debug\d3des.sbr Debug\Daemon.sbr Debug\dh.sbr Debug\DSMPlugin.sbr Debug\directxviewer.sbr Debug\display.sbr Debug\Exception.sbr Debug\FileTransfer.sbr Debug\FullScreenTitleBar.sbr Debug\KeyMap.sbr Debug\KeyMapjap.sbr Debug\Log.sbr Debug\LowLevelHook.sbr Debug\MessBox2.sbr Debug\minilzo.sbr Debug\MRU.sbr Debug\SessionDialog.sbr Debug\stdhdrs.sbr Debug\TextChat.sbr Debug\vncauth.sbr Debug\VNCOptions.sbr Debug\vncviewer.sbr Debug\VNCviewerApp.sbr Debug\VNCviewerApp32.sbr Debug\win32_helpers.sbr Debug\ZipUnzip32.sbr Debug\zrle.sbr
+     1>Done Building Project "D:\Dropbox\Dropbox\Fontes vncsihl\ultravnc_src_907\UltraVNC Project Root\UltraVNC\vncviewer\vncviewerv12.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:55.83
